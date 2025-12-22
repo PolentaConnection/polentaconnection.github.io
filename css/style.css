@@ -1,0 +1,571 @@
+/* =====================================================
+   Polenta Connection - Custom Stylesheet
+   Elegant dark theme with Courier font
+   ===================================================== */
+
+/* CSS Variables for consistent theming */
+:root {
+    --bg-color: #000000;
+    --bg-secondary: #111111;
+    --text-color: #f0f0f0;
+    --text-muted: #888888;
+    --accent-color: #66ff99;
+    --accent-hover: #99ffcc;
+    --border-color: #444444;
+    --border-light: #888888;
+}
+
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Custom Divider */
+.divider {
+    height: 1px;
+    border: none;
+    background: linear-gradient(to right, #444, #888, #444);
+    margin: 20px 0 30px 0;
+    opacity: 1;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-color);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    border-bottom-style: solid;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--bg-secondary) !important;
+    border-bottom: 1px solid var(--border-color);
+    font-family: "Courier New", Courier, monospace;
+}
+
+.navbar-brand {
+    color: var(--accent-color) !important;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-bottom: none !important;
+    padding: 0 !important;
+}
+
+.navbar-brand:hover {
+    color: var(--accent-hover) !important;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+    transition: opacity 0.2s ease;
+}
+
+.navbar-brand:hover img {
+    opacity: 0.85;
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+    border-bottom: none !important;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--accent-color) !important;
+}
+
+.navbar-toggler {
+    border-color: var(--border-color) !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Highlight Box */
+.highlight {
+    background-color: var(--bg-secondary);
+    padding: 15px 20px;
+    border-left: 3px solid var(--accent-color);
+    margin: 20px 0;
+}
+
+/* Cards - Bootstrap Override */
+.card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.card-title {
+    color: var(--accent-color);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+/* Custom Button */
+.btn-custom {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Container Override */
+.container {
+    max-width: 900px;
+}
+
+/* Form Styles */
+.form-control {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+    color: var(--text-color);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    background-color: var(--bg-secondary);
+    border-color: var(--accent-color);
+    color: var(--text-color);
+    box-shadow: 0 0 0 0.2rem rgba(102, 255, 153, 0.25);
+}
+
+.form-control::placeholder {
+    color: var(--text-muted);
+}
+
+.form-label {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+/* Tables */
+.table {
+    color: var(--text-color);
+    font-family: "Courier New", Courier, monospace;
+    border-color: var(--border-color);
+}
+
+.table > thead {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.table > tbody > tr {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.table-dark {
+    --bs-table-bg: var(--bg-secondary);
+    --bs-table-border-color: var(--border-color);
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.breadcrumb-item a {
+    color: var(--text-muted);
+    border-bottom: none;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--accent-color);
+}
+
+.breadcrumb-item.active {
+    color: var(--accent-color);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--text-muted);
+}
+
+/* Gallery Grid */
+.gallery-item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: border-color 0.2s ease;
+}
+
+.gallery-item:hover {
+    border-color: var(--accent-color);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Event List */
+.event-item {
+    background-color: var(--bg-secondary);
+    border-left: 3px solid var(--accent-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event-date {
+    color: var(--accent-color);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.event-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Utility Classes */
+.text-accent {
+    color: var(--accent-color);
+}
+
+.bg-dark-custom {
+    background-color: var(--bg-secondary);
+}
+
+.border-accent {
+    border-color: var(--accent-color) !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Selection Color */
+::selection {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+/* Scrollbar Styling (Webkit) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* =====================================================
+   Downloads Page Styles
+   ===================================================== */
+
+/* Software Product Section */
+.software-product {
+    margin-bottom: 20px;
+}
+
+/* Screenshot Container */
+.screenshot-container {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    transition: border-color 0.2s ease;
+}
+
+.screenshot-container:hover {
+    border-color: var(--accent-color);
+}
+
+/* Download Section */
+.download-section h3,
+.previous-versions h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Download Item (Current Version) */
+.download-item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-color);
+    padding: 20px;
+}
+
+/* Version Badge */
+.version-badge {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.version-badge-small {
+    display: inline-block;
+    background-color: var(--border-color);
+    color: var(--text-color);
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/* Version Info */
+.version-info {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.version-notes {
+    font-size: 14px;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+/* Download Item Small (Previous Versions) */
+.download-item-small {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.download-item-small:last-child {
+    border-bottom: none;
+}
+
+/* Small Button */
+.btn-custom-sm {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.btn-custom-sm:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+/* Accordion Styles (Bootstrap Override) */
+.accordion {
+    --bs-accordion-bg: var(--bg-secondary);
+    --bs-accordion-border-color: var(--border-color);
+    --bs-accordion-btn-color: var(--text-color);
+    --bs-accordion-btn-bg: var(--bg-secondary);
+    --bs-accordion-active-color: var(--accent-color);
+    --bs-accordion-active-bg: var(--bg-secondary);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.2rem rgba(102, 255, 153, 0.25);
+}
+
+.accordion-item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: var(--text-muted);
+    background-color: var(--bg-secondary);
+    border-radius: 0 !important;
+    padding: 12px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--accent-color);
+    background-color: var(--bg-secondary);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: var(--accent-color);
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-body {
+    padding: 15px 20px;
+    background-color: var(--bg-color);
+}
+
+/* =====================================================
+   Donate Page Styles
+   ===================================================== */
+
+.donate-box {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 40px;
+}
+
+.donate-icon {
+    opacity: 0.9;
+}
+
+.btn-donate {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5A623;
+    border: 2px solid #F5A623;
+    color: #000000;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-donate:hover {
+    background-color: #D4880F;
+    border-color: #D4880F;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(245, 166, 35, 0.3);
+}
+
+.btn-donate svg {
+    flex-shrink: 0;
+}
+
+/* =====================================================
+   Audio Player Styles
+   ===================================================== */
+
+.audio-player-container {
+    background-color: #2a2a2a;
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+    padding: 15px;
+}
+
+.audio-player-container audio {
+    width: 100%;
+    height: 45px;
+    border-radius: 0;
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.audio-player-container audio::-webkit-media-controls-panel {
+    background-color: #333333;
+}
+
+.audio-player-container audio::-webkit-media-controls-current-time-display,
+.audio-player-container audio::-webkit-media-controls-time-remaining-display {
+    color: var(--text-color);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+

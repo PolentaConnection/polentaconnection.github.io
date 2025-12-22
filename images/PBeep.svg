@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c3483;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c1445;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1c40f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="240" height="240" rx="24" ry="24" fill="url(#bgGrad)" stroke="#9b59b6" stroke-width="4"/>
+  
+  <!-- Bell shape -->
+  <path d="M 128 50 
+           C 80 50 65 90 65 130 
+           L 65 160 
+           L 50 175 
+           L 50 190 
+           L 206 190 
+           L 206 175 
+           L 191 160 
+           L 191 130 
+           C 191 90 176 50 128 50 Z" 
+        fill="url(#waveGrad)"/>
+  
+  <!-- Bell clapper -->
+  <circle cx="128" cy="205" r="18" fill="#f39c12"/>
+  
+  <!-- Sound waves left -->
+  <path d="M 45 100 Q 25 128 45 156" fill="none" stroke="#ecf0f1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 30 85 Q 5 128 30 171" fill="none" stroke="#ecf0f1" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Sound waves right -->
+  <path d="M 211 100 Q 231 128 211 156" fill="none" stroke="#ecf0f1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 226 85 Q 251 128 226 171" fill="none" stroke="#ecf0f1" stroke-width="6" stroke-linecap="round"/>
+</svg>
+
