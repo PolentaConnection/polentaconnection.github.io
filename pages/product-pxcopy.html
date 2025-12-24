@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polenta Beep - PBeep</title>
+    <title>Polenta XCopy - PXCopy</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -48,30 +48,30 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="products.html">Products</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Polenta Beep - PBeep</li>
+                <li class="breadcrumb-item active" aria-current="page">Polenta XCopy - PXCopy</li>
             </ol>
         </nav>
 
         <div class="d-flex justify-content-between align-items-center">
-            <h1 class="mb-0">Polenta Beep - PBeep</h1>
+            <h1 class="mb-0">Polenta XCopy - PXCopy</h1>
             <div>
-                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PBeep_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PBeep_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
             </div>
         </div>
         <hr class="divider">
 
         <div class="row g-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img src="../images/PBeep.svg" alt="PBeep Icon" style="width: 280px; height: 280px;">
+                <img src="../images/PXCopy.svg" alt="PXCopy Icon" style="width: 280px; height: 280px;">
             </div>
             <div class="col-lg-7">
                 <div class="highlight">
                     <h3 class="text-accent">Description</h3>
                     <p>
-                        PBeep is a simple command-line utility that plays system beeps with 
-                        customizable frequency and duration. It's perfect for adding audio 
-                        notifications to your batch scripts and automation tasks.
+                        PXCopy is a powerful file copying utility that allows you to copy files 
+                        based on date ranges. Perfect for backing up recent files, archiving 
+                        modified documents, or organizing files by modification time.
                     </p>
                     <p class="mb-0">
                         <strong>Platform:</strong> Windows 10/11 (x64)<br>
@@ -84,39 +84,38 @@
 
         <h2>Features</h2>
         <p>
-            PBeep gives you complete control over your audio notifications with a rich set of options:
+            PXCopy provides flexible file copying with date-based filtering:
         </p>
 
         <ul>
             <li>
-                <strong class="text-accent">Frequency Control</strong> (<code>-f, --frequency</code>)<br>
-                Set any frequency in Hz, or simply use musical notation! 
-                PBeep understands notes like <code>A4</code>, <code>C#3</code>, or <code>Db5</code>.
+                <strong class="text-accent">Source Pattern</strong> (<code>-s, --source</code>)<br>
+                Specify source files using glob patterns like <code>"path/*.txt"</code> or 
+                <code>"C:\Documents\*.docx"</code>.
             </li>
             <li>
-                <strong class="text-accent">Flexible Duration</strong> (<code>-d, --duration</code>)<br>
-                Specify how long the beep should last using intuitive time formats: 
-                <code>200ms</code>, <code>1s</code>, or even <code>1s500ms</code>.
+                <strong class="text-accent">Destination Directory</strong> (<code>-d, --dest</code>)<br>
+                Set the destination folder where files will be copied.
             </li>
             <li>
-                <strong class="text-accent">Volume Adjustment</strong> (<code>-v, --volume</code>)<br>
-                Fine-tune the volume from silent to full blast with a range of 0 to 1000. 
-                Default is 1000 (maximum).
+                <strong class="text-accent">Date Range Options</strong><br>
+                Filter files by modification date using multiple convenient methods:
+                <ul style="margin-top: 8px;">
+                    <li><code>--start-date</code> / <code>--end-date</code> - Specific date range (YYYY-MM-DD)</li>
+                    <li><code>--past-weeks</code> - Files from N weeks ago</li>
+                    <li><code>--past-days</code> - Files from N days ago</li>
+                    <li><code>--past-hours</code> - Files from N hours ago</li>
+                    <li><code>--past-mins</code> - Files from N minutes ago</li>
+                </ul>
             </li>
             <li>
-                <strong class="text-accent">Multiple Beeps</strong> (<code>-n, --count</code>)<br>
-                Need more than one beep? Set the count to play a sequence of beeps, 
-                great for countdown timers or repeated alerts.
-            </li>
-            <li>
-                <strong class="text-accent">Pause Between Beeps</strong> (<code>-p, --pause</code>)<br>
-                Control the silence between consecutive beeps. Use time formats like 
-                <code>100ms</code> or <code>1s</code> for precise timing.
+                <strong class="text-accent">Flexible Time Selection</strong><br>
+                Use the most specific time unit available. Minutes take priority over hours, 
+                which take priority over days, and so on.
             </li>
             <li>
                 <strong class="text-accent">Lightweight & Portable</strong><br>
-                No installation required! Just a single executable that's ready to use 
-                in your scripts, batch files, or automation workflows. Zero dependencies.
+                Single executable with no installation required. Perfect for backup scripts.
             </li>
             <li>
                 <strong class="text-accent">Quick Links</strong> (<code>-ws, --website</code> / <code>-don, --donate</code>)<br>
@@ -126,34 +125,30 @@
 
         <h2>Usage</h2>
         <div class="highlight">
-            <code>PBeep.exe [options]</code>
+            <code>PXCopy.exe -s &lt;source-pattern&gt; -d &lt;destination&gt; [date-options]</code>
         </div>
 
         <h2>Examples</h2>
         <div class="highlight">
-            <code>PBeep.exe</code><br>
-            Play a default beep
+            <code>PXCopy.exe -s "C:\Files\*.txt" -d "C:\Backup" --past-days 7</code><br>
+            Copy all .txt files modified in the last 7 days
         </div>
         <div class="highlight">
-            <code>PBeep.exe -f 1000 -d 500ms</code><br>
-            Play a 1000 Hz beep for half a second
+            <code>PXCopy.exe -s "*.docx" -d "D:\Archive" --past-hours 24</code><br>
+            Copy all Word documents modified in the last 24 hours
         </div>
         <div class="highlight">
-            <code>PBeep.exe -f A4 -d 1s</code><br>
-            Play the A4 note (440 Hz) for 1 second
+            <code>PXCopy.exe -s "C:\Projects\*.*" -d "E:\Backup" --start-date 2024-01-01 --end-date 2024-12-31</code><br>
+            Copy all files modified in 2024
         </div>
         <div class="highlight">
-            <code>PBeep.exe -f C#5 -d 200ms -n 3 -p 100ms</code><br>
-            Play C#5 three times with 100ms pause between beeps
-        </div>
-        <div class="highlight">
-            <code>PBeep.exe -f 800 -d 1s -v 500</code><br>
-            Play at half volume
+            <code>PXCopy.exe -s "C:\Logs\*.log" -d "D:\Recent" --past-mins 60</code><br>
+            Copy log files modified in the last hour
         </div>
 
         <div class="mt-5">
-            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PBeep_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PBeep_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
             <a href="products.html" class="btn btn-custom ms-2">Back to Products</a>
         </div>
     </main>

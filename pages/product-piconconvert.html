@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polenta Icon Convert - PIconConvert</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.svg" alt="Polenta Connection" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="valuable-stuff.html">Valuable Stuff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="products.html">Products</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Polenta Icon Convert - PIconConvert</li>
+            </ol>
+        </nav>
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Polenta Icon Convert - PIconConvert</h1>
+            <div class="d-flex flex-column gap-2">
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PIconConvert_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PIconConvert_Setup_1.0.zip" class="btn btn-custom" download>Download Installer</a>
+            </div>
+        </div>
+        <hr class="divider">
+
+        <div class="row g-4">
+            <div class="col-lg-5 d-flex align-items-center justify-content-center">
+                <img src="../images/PIconConvert.svg" alt="PIconConvert Icon" style="width: 280px; height: 280px;">
+            </div>
+            <div class="col-lg-7">
+                <div class="highlight">
+                    <h3 class="text-accent">Description</h3>
+                    <p>
+                        PIconConvert is a powerful command-line utility that converts SVG files to ICO format. 
+                        No external dependencies required! Perfect for developers who need to create Windows 
+                        icons from scalable vector graphics.
+                    </p>
+                    <p class="mb-0">
+                        <strong>Platform:</strong> Windows 10/11 (x64)<br>
+                        <strong>License:</strong> Freeware<br>
+                        <strong>Version:</strong> 1.0.0
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Features</h2>
+        <p>
+            PIconConvert provides comprehensive SVG to ICO conversion capabilities:
+        </p>
+
+        <ul>
+            <li>
+                <strong class="text-accent">Single File Conversion</strong> (<code>-i, --input</code>)<br>
+                Convert a single SVG file to ICO format. The output file will be created in the same directory 
+                or in a specified output location.
+            </li>
+            <li>
+                <strong class="text-accent">Batch Processing</strong><br>
+                Convert multiple SVG files at once using wildcard patterns like <code>*.svg</code> or 
+                <code>icons/*.svg</code>. Process entire directories efficiently.
+            </li>
+            <li>
+                <strong class="text-accent">Custom Output Directory</strong> (<code>-o, --output</code>)<br>
+                Specify a custom output directory or file path. If a directory is specified, files will 
+                be created with the same base name as the input files.
+            </li>
+            <li>
+                <strong class="text-accent">Custom Icon Sizes</strong> (<code>-s, --sizes</code>)<br>
+                Specify custom icon sizes in a comma-separated list (e.g., <code>16,32,48,256</code>). 
+                Default sizes are: 16, 24, 32, 48, 64, 128, 256.
+            </li>
+            <li>
+                <strong class="text-accent">No External Dependencies</strong><br>
+                No need for Cairo, ImageMagick, or other external tools. Works out of the box with 
+                a single executable file.
+            </li>
+            <li>
+                <strong class="text-accent">High Quality Rendering</strong><br>
+                Renders SVG graphics with proper scaling, gradients, and transparency support. 
+                Produces high-quality ICO files suitable for Windows applications.
+            </li>
+            <li>
+                <strong class="text-accent">Lightweight & Portable</strong><br>
+                Single executable file with no installation required. Perfect for build scripts, 
+                CI/CD pipelines, and automation workflows.
+            </li>
+            <li>
+                <strong class="text-accent">Quick Links</strong> (<code>-ws, --website</code> / <code>-don, --donate</code>)<br>
+                Open the Polenta Connection website or donate page directly from the command line.
+            </li>
+        </ul>
+
+        <h2>Usage</h2>
+        <div class="highlight">
+            <code>PIconConvert.exe -i &lt;input&gt; [-o &lt;output&gt;] [-s &lt;sizes&gt;]</code>
+        </div>
+
+        <h2>Examples</h2>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icon.svg</code><br>
+            Convert icon.svg to icon.ico in the same directory
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icon.svg -o output.ico</code><br>
+            Convert icon.svg to a specific output file
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icon.svg -o output/</code><br>
+            Convert icon.svg to output/icon.ico
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i *.svg</code><br>
+            Convert all SVG files in the current directory
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icons/*.svg</code><br>
+            Convert all SVG files in the icons/ directory
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i *.svg -o output/</code><br>
+            Convert all SVG files to the output/ directory
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icon.svg -s 16,32,48,256</code><br>
+            Convert with specific icon sizes
+        </div>
+        <div class="highlight">
+            <code>PIconConvert.exe -i icon.svg -s 256</code><br>
+            Create a single-size icon (256x256)
+        </div>
+
+        <h2>Icon Sizes</h2>
+        <p>
+            ICO files can contain multiple icon sizes. The default sizes are:
+        </p>
+        <ul>
+            <li>16x16 - Small icons, taskbar</li>
+            <li>24x24 - Small icons</li>
+            <li>32x32 - Standard icons</li>
+            <li>48x48 - Large icons</li>
+            <li>64x64 - Extra large icons</li>
+            <li>128x128 - High resolution</li>
+            <li>256x256 - Maximum resolution</li>
+        </ul>
+        <p>
+            You can specify custom sizes using the <code>-s, --sizes</code> option with a comma-separated list.
+        </p>
+
+        <div class="mt-5">
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PIconConvert_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PIconConvert_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
+            <a href="products.html" class="btn btn-custom ms-2">Back to Products</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 – Polenta Connection – Courier style page on black background</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

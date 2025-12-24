@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polenta Delay - PDelay</title>
+    <title>Polenta Audio Player - PPlayAudio</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -48,34 +48,30 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="products.html">Products</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Polenta Delay - PDelay</li>
+                <li class="breadcrumb-item active" aria-current="page">Polenta Audio Player - PPlayAudio</li>
             </ol>
         </nav>
 
         <div class="d-flex justify-content-between align-items-center">
-            <h1 class="mb-0">Polenta Delay - PDelay</h1>
+            <h1 class="mb-0">Polenta Audio Player - PPlayAudio</h1>
             <div>
-                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PDelay_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PDelay_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PPlayAudio_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+                <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PPlayAudio_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
             </div>
         </div>
         <hr class="divider">
 
         <div class="row g-4">
-            <div class="col-lg-5">
-                <div class="screenshot-container">
-                    <div class="ratio ratio-16x9 bg-dark-custom d-flex align-items-center justify-content-center">
-                        <span class="text-muted">[Screenshot]</span>
-                    </div>
-                </div>
+            <div class="col-lg-5 d-flex align-items-center justify-content-center">
+                <img src="../images/PPlayAudio.svg" alt="PPlayAudio Icon" style="width: 280px; height: 280px;">
             </div>
             <div class="col-lg-7">
                 <div class="highlight">
                     <h3 class="text-accent">Description</h3>
                     <p>
-                        PDelay is a lightweight delay/sleep utility designed for batch scripts 
-                        and automation workflows. It allows you to pause script execution for 
-                        a specified duration with millisecond precision.
+                        PPlayAudio is a lightweight command-line audio player that supports multiple 
+                        audio formats. Perfect for playing sound effects, music, or notifications 
+                        in your batch scripts and automation workflows.
                     </p>
                     <p class="mb-0">
                         <strong>Platform:</strong> Windows 10/11 (x64)<br>
@@ -87,34 +83,59 @@
         </div>
 
         <h2>Features</h2>
+        <p>
+            PPlayAudio provides simple and reliable audio playback:
+        </p>
+
         <ul>
-            <li>Millisecond precision timing</li>
-            <li>Support for seconds, minutes, and hours</li>
-            <li>Minimal resource usage</li>
-            <li>No installation required</li>
-            <li>Silent operation - no console output</li>
+            <li>
+                <strong class="text-accent">Multiple Format Support</strong><br>
+                Plays WAV, MP3, OGG, WMA, AAC, and M4A audio files. No need for multiple players!
+            </li>
+            <li>
+                <strong class="text-accent">Volume Control</strong> (<code>-v, --volume</code>)<br>
+                Adjust playback volume from 0 (silent) to 1000 (maximum). Default is 1000.
+            </li>
+            <li>
+                <strong class="text-accent">Quiet Mode</strong> (<code>-q, --quiet</code>)<br>
+                Suppress progress messages for cleaner script output.
+            </li>
+            <li>
+                <strong class="text-accent">Lightweight & Portable</strong><br>
+                Single executable with no installation required. Perfect for automation scripts.
+            </li>
+            <li>
+                <strong class="text-accent">Quick Links</strong> (<code>-ws, --website</code> / <code>-don, --donate</code>)<br>
+                Open the Polenta Connection website or donate page directly from the command line.
+            </li>
         </ul>
 
         <h2>Usage</h2>
         <div class="highlight">
-            <code>PDelay.exe [duration] [unit]</code>
-            <p class="mt-2 mb-0">
-                <strong>duration</strong> - The delay duration (numeric value)<br>
-                <strong>unit</strong> - Time unit: ms (milliseconds), s (seconds), m (minutes)
-            </p>
+            <code>PPlayAudio.exe &lt;audio-file&gt; [options]</code>
         </div>
 
         <h2>Examples</h2>
         <div class="highlight">
-            <code>PDelay.exe 500 ms</code> - Wait 500 milliseconds<br>
-            <code>PDelay.exe 5 s</code> - Wait 5 seconds<br>
-            <code>PDelay.exe 2 m</code> - Wait 2 minutes<br>
-            <code>PDelay.exe 1500</code> - Wait 1500 milliseconds (default unit)
+            <code>PPlayAudio.exe music.mp3</code><br>
+            Play an MP3 file at full volume
+        </div>
+        <div class="highlight">
+            <code>PPlayAudio.exe song.wav -q</code><br>
+            Play a WAV file quietly (no progress messages)
+        </div>
+        <div class="highlight">
+            <code>PPlayAudio.exe audio.ogg -v 500</code><br>
+            Play an OGG file at half volume
+        </div>
+        <div class="highlight">
+            <code>PPlayAudio.exe notification.wav -q -v 800</code><br>
+            Play a notification sound at 80% volume without progress display
         </div>
 
         <div class="mt-5">
-            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PDelay_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PDelay_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PPlayAudio_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+            <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PPlayAudio_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
             <a href="products.html" class="btn btn-custom ms-2">Back to Products</a>
         </div>
     </main>
