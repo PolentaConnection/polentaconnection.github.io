@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 125" width="340" height="125">
+  <defs>
+    <linearGradient id="polentaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFBF00"/>
+      <stop offset="50%" style="stop-color:#F5A623"/>
+      <stop offset="100%" style="stop-color:#D4880F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Black background -->
+  <rect x="0" y="0" width="340" height="125" fill="#000000"/>
+  
+  <!-- Rounded corner border -->
+  <rect x="10" y="10" width="310" height="105" rx="12" ry="12" 
+        fill="none" 
+        stroke="url(#polentaGradient)" 
+        stroke-width="6"/>
+  
+  <!-- Stylized pot/bowl icon -->
+  <g transform="translate(25, 25)">
+    <!-- Pot body -->
+    <path d="M5 34 L5 62 Q5 72 15 72 L60 72 Q70 72 70 62 L70 34 Z" 
+          fill="url(#polentaGradient)" />
+    <!-- Pot rim -->
+    <rect x="2" y="26" width="71" height="10" rx="4" fill="url(#polentaGradient)"/>
+    <!-- Steam lines -->
+    <path d="M18 22 Q24 12 18 2" stroke="#F5A623" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M37 17 Q43 7 37 -3" stroke="#F5A623" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M56 22 Q62 12 56 2" stroke="#F5A623" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Polenta texture dots -->
+    <circle cx="22" cy="46" r="3" fill="#D4880F"/>
+    <circle cx="37" cy="42" r="3" fill="#D4880F"/>
+    <circle cx="52" cy="48" r="3" fill="#D4880F"/>
+    <circle cx="28" cy="58" r="3" fill="#D4880F"/>
+    <circle cx="45" cy="56" r="3" fill="#D4880F"/>
+  </g>
+  
+  <!-- Text: POLENTA -->
+  <text x="110" y="58" 
+        font-family="Courier New, Courier, monospace" 
+        font-size="28" 
+        font-weight="bold" 
+        letter-spacing="4"
+        fill="#F5A623">POLENTA</text>
+  
+  <!-- Text: CONNECTION -->
+  <text x="110" y="90" 
+        font-family="Courier New, Courier, monospace" 
+        font-size="28" 
+        font-weight="bold" 
+        letter-spacing="2"
+        fill="#D4880F">CONNECTION</text>
+  
+  <!-- Decorative line -->
+  <line x1="110" y1="65" x2="300" y2="65" stroke="#F5A623" stroke-width="1.5" opacity="0.5"/>
+</svg>
