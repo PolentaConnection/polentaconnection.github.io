@@ -7,9 +7,6 @@
     </linearGradient>
   </defs>
   
-  <!-- Black background -->
-  <rect x="0" y="0" width="330" height="125" rx="12" ry="12" fill="#000000"/>
-  
   <!-- Rounded corner border -->
   <rect x="10" y="10" width="310" height="105" rx="12" ry="12" 
         fill="none" 
