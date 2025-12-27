@@ -65,17 +65,82 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Inno di Storo</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <span class="breadcrumb-text italian-title">Inno di Storo</span>
+                    <span class="breadcrumb-text english-title" style="display: none;">Hymn of Storo</span>
+                    <span class="breadcrumb-text german-title" style="display: none;">Hymne von Storo</span>
+                    <span class="breadcrumb-text french-title" style="display: none;">Hymne de Storo</span>
+                    <span class="breadcrumb-text spanish-title" style="display: none;">Himno de Storo</span>
+                </li>
             </ol>
         </nav>
 
-        <h1>Inno di Storo</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <h1 style="margin: 0;">
+                <span class="page-title-text italian-title">Inno di Storo</span>
+                <span class="page-title-text english-title" style="display: none;">Hymn of Storo</span>
+                <span class="page-title-text german-title" style="display: none;">Hymne von Storo</span>
+                <span class="page-title-text french-title" style="display: none;">Hymne de Storo</span>
+                <span class="page-title-text spanish-title" style="display: none;">Himno de Storo</span>
+            </h1>
+            <!-- Language Buttons -->
+            <div class="language-buttons">
+                <button class="lang-btn-main active" onclick="changePageLanguage('italian', this)" data-lang="italian">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                        <rect width="3" height="2" fill="#009246"/>
+                        <rect width="2" height="2" x="1" fill="#fff"/>
+                        <rect width="1" height="2" x="2" fill="#CE2B37"/>
+                    </svg>
+                    IT
+                </button>
+                <button class="lang-btn-main" onclick="changePageLanguage('english', this)" data-lang="english">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 60 30" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                        <rect width="60" height="30" fill="#012169"/>
+                        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="4"/>
+                        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2.5"/>
+                        <path d="M30,0 L30,30 M0,15 L60,15" stroke="#fff" stroke-width="5"/>
+                        <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="3"/>
+                    </svg>
+                    EN
+                </button>
+                <button class="lang-btn-main" onclick="changePageLanguage('german', this)" data-lang="german">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 5 3" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                        <rect width="5" height="1" fill="#000000"/>
+                        <rect width="5" height="1" y="1" fill="#DD0000"/>
+                        <rect width="5" height="1" y="2" fill="#FFCE00"/>
+                    </svg>
+                    DE
+                </button>
+                <button class="lang-btn-main" onclick="changePageLanguage('french', this)" data-lang="french">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                        <rect width="1" height="2" fill="#002654"/>
+                        <rect width="1" height="2" x="1" fill="#fff"/>
+                        <rect width="1" height="2" x="2" fill="#ED2939"/>
+                    </svg>
+                    FR
+                </button>
+                <button class="lang-btn-main" onclick="changePageLanguage('spanish', this)" data-lang="spanish">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                        <rect width="3" height="0.67" fill="#AA151B"/>
+                        <rect width="3" height="0.67" y="0.67" fill="#F1BF00"/>
+                        <rect width="3" height="0.67" y="1.33" fill="#AA151B"/>
+                    </svg>
+                    ES
+                </button>
+            </div>
+        </div>
         <hr class="divider">
 
-        <h2>Music</h2>
+        <h2>
+            <span class="section-title-text italian-title">Music</span>
+            <span class="section-title-text english-title" style="display: none;">Music</span>
+            <span class="section-title-text german-title" style="display: none;">Musik</span>
+            <span class="section-title-text french-title" style="display: none;">Musique</span>
+            <span class="section-title-text spanish-title" style="display: none;">Música</span>
+        </h2>
 
         <div class="highlight">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <div style="margin-bottom: 1rem;">
                 <h3 class="text-accent mb-0" style="font-size: 18px;">
                     <span class="title-text italian-title">Inno di <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">Storo</a></span>
                     <span class="title-text english-title" style="display: none;">Hymn of <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">Storo</a></span>
@@ -83,60 +148,15 @@
                     <span class="title-text french-title" style="display: none;">Hymne de <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">Storo</a></span>
                     <span class="title-text spanish-title" style="display: none;">Himno de <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">Storo</a></span>
                 </h3>
-                <!-- Language Buttons for Description -->
-                <div class="language-buttons">
-                    <button class="lang-btn-desc active" onclick="showDescriptionTranslation('italian', this)" data-lang="italian">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                            <rect width="3" height="2" fill="#009246"/>
-                            <rect width="2" height="2" x="1" fill="#fff"/>
-                            <rect width="1" height="2" x="2" fill="#CE2B37"/>
-                        </svg>
-                        IT
-                    </button>
-                    <button class="lang-btn-desc" onclick="showDescriptionTranslation('english', this)" data-lang="english">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 60 30" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                            <rect width="60" height="30" fill="#012169"/>
-                            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="4"/>
-                            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2.5"/>
-                            <path d="M30,0 L30,30 M0,15 L60,15" stroke="#fff" stroke-width="5"/>
-                            <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="3"/>
-                        </svg>
-                        EN
-                    </button>
-                    <button class="lang-btn-desc" onclick="showDescriptionTranslation('german', this)" data-lang="german">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 5 3" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                            <rect width="5" height="1" fill="#000000"/>
-                            <rect width="5" height="1" y="1" fill="#DD0000"/>
-                            <rect width="5" height="1" y="2" fill="#FFCE00"/>
-                        </svg>
-                        DE
-                    </button>
-                    <button class="lang-btn-desc" onclick="showDescriptionTranslation('french', this)" data-lang="french">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                            <rect width="1" height="2" fill="#002654"/>
-                            <rect width="1" height="2" x="1" fill="#fff"/>
-                            <rect width="1" height="2" x="2" fill="#ED2939"/>
-                        </svg>
-                        FR
-                    </button>
-                    <button class="lang-btn-desc" onclick="showDescriptionTranslation('spanish', this)" data-lang="spanish">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                            <rect width="3" height="0.67" fill="#AA151B"/>
-                            <rect width="3" height="0.67" y="0.67" fill="#F1BF00"/>
-                            <rect width="3" height="0.67" y="1.33" fill="#AA151B"/>
-                        </svg>
-                        ES
-                    </button>
-                </div>
             </div>
             
             <div class="mb-2" id="description-section" style="position: relative;">
                 <p class="mb-0" style="white-space: pre-line; position: relative;">
-                    <span class="description-text italian-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: visible;">Testo: Nino Scaglia<br>Musica: Danilo Baratella.<br>Registrazione originale del 1980 (?), in apertura della commedia 'An da me ca comando mi'.</span>
-                    <span class="description-text english-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Lyrics: Nino Scaglia<br>Music: Danilo Baratella.<br>Original 1980 (?) recording, opening the comedy 'An da me ca comando mi'.</span>
-                    <span class="description-text german-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Text: Nino Scaglia<br>Musik: Danilo Baratella.<br>Originalaufnahme von 1980 (?), Eröffnung der Komödie 'An da me ca comando mi'.</span>
-                    <span class="description-text french-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Paroles: Nino Scaglia<br>Musique: Danilo Baratella.<br>Enregistrement original de 1980 (?), ouverture de la comédie 'An da me ca comando mi'.</span>
-                    <span class="description-text spanish-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Letra: Nino Scaglia<br>Música: Danilo Baratella.<br>Grabación original de 1980 (?), apertura de la comedia 'An da me ca comando mi'.</span>
+                    <span class="description-text italian-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: visible;">Testo: Nino Scaglia<br>Musica: Danilo Baratella.<br>Registrazione originale del 1977, in apertura della commedia '<a href="https://www.ilchiese.it/product-page/nino-scaglia-an-da-me-ca-comando-mi" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">An da me ca comando mi</a>'.</span>
+                    <span class="description-text english-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Lyrics: Nino Scaglia<br>Music: Danilo Baratella.<br>Original 1977 recording, opening the comedy '<a href="https://www.ilchiese.it/product-page/nino-scaglia-an-da-me-ca-comando-mi" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">An da me ca comando mi</a>'.</span>
+                    <span class="description-text german-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Text: Nino Scaglia<br>Musik: Danilo Baratella.<br>Originalaufnahme von 1977, Eröffnung der Komödie '<a href="https://www.ilchiese.it/product-page/nino-scaglia-an-da-me-ca-comando-mi" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">An da me ca comando mi</a>'.</span>
+                    <span class="description-text french-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Paroles: Nino Scaglia<br>Musique: Danilo Baratella.<br>Enregistrement original de 1977, ouverture de la comédie '<a href="https://www.ilchiese.it/product-page/nino-scaglia-an-da-me-ca-comando-mi" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">An da me ca comando mi</a>'.</span>
+                    <span class="description-text spanish-description" style="position: absolute; top: 0; left: 0; right: 0; visibility: hidden;">Letra: Nino Scaglia<br>Música: Danilo Baratella.<br>Grabación original de 1977, apertura de la comedia '<a href="https://www.ilchiese.it/product-page/nino-scaglia-an-da-me-ca-comando-mi" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">An da me ca comando mi</a>'.</span>
                 </p>
             </div>
             
@@ -162,9 +182,15 @@
             </p>
         </div>
 
-        <h2>Lyrics</h2>
+        <h2>
+            <span class="section-title-text italian-title">Lyrics</span>
+            <span class="section-title-text english-title" style="display: none;">Lyrics</span>
+            <span class="section-title-text german-title" style="display: none;">Liedtext</span>
+            <span class="section-title-text french-title" style="display: none;">Paroles</span>
+            <span class="section-title-text spanish-title" style="display: none;">Letra</span>
+        </h2>
         <div class="highlight">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <div style="margin-bottom: 1rem;">
                 <h3 class="text-accent mb-0" style="font-size: 18px;">
                     <span class="lyrics-title-text italian-title">INNO DI <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">STORO</a></span>
                     <span class="lyrics-title-text english-title" style="display: none;">HYMN OF <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">STORO</a></span>
@@ -172,51 +198,6 @@
                     <span class="lyrics-title-text french-title" style="display: none;">HYMNE DE <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">STORO</a></span>
                     <span class="lyrics-title-text spanish-title" style="display: none;">HIMNO DE <a href="https://www.google.com/maps/place/38089+Storo+TN" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); border-bottom: 1px dotted var(--accent-color);">STORO</a></span>
                 </h3>
-                <!-- Language Buttons -->
-                <div class="language-buttons">
-                <button class="lang-btn active" onclick="showTranslation('italian', this)" data-lang="italian">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                        <rect width="3" height="2" fill="#009246"/>
-                        <rect width="2" height="2" x="1" fill="#fff"/>
-                        <rect width="1" height="2" x="2" fill="#CE2B37"/>
-                    </svg>
-                    IT
-                </button>
-                <button class="lang-btn" onclick="showTranslation('english', this)" data-lang="english">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 60 30" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                        <rect width="60" height="30" fill="#012169"/>
-                        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="4"/>
-                        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2.5"/>
-                        <path d="M30,0 L30,30 M0,15 L60,15" stroke="#fff" stroke-width="5"/>
-                        <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="3"/>
-                    </svg>
-                    EN
-                </button>
-                <button class="lang-btn" onclick="showTranslation('german', this)" data-lang="german">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 5 3" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                        <rect width="5" height="1" fill="#000000"/>
-                        <rect width="5" height="1" y="1" fill="#DD0000"/>
-                        <rect width="5" height="1" y="2" fill="#FFCE00"/>
-                    </svg>
-                    DE
-                </button>
-                <button class="lang-btn" onclick="showTranslation('french', this)" data-lang="french">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                        <rect width="1" height="2" fill="#002654"/>
-                        <rect width="1" height="2" x="1" fill="#fff"/>
-                        <rect width="1" height="2" x="2" fill="#ED2939"/>
-                    </svg>
-                    FR
-                </button>
-                <button class="lang-btn" onclick="showTranslation('spanish', this)" data-lang="spanish">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 3 2" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-                        <rect width="3" height="0.67" fill="#AA151B"/>
-                        <rect width="3" height="0.67" y="0.67" fill="#F1BF00"/>
-                        <rect width="3" height="0.67" y="1.33" fill="#AA151B"/>
-                    </svg>
-                    ES
-                </button>
-                </div>
             </div>
             
             <p class="mb-2" style="font-size: 14px; color: var(--text-muted);">
@@ -462,135 +443,84 @@
         </div>
         
         <script>
-            const translationTitles = {
-                'italian': 'Traduzione',
-                'english': 'Translation',
-                'german': 'Übersetzung',
-                'french': 'Traduction',
-                'spanish': 'Traducción'
-            };
-            
-            function updateTranslationTitle(lang) {
-                const titleElement = document.getElementById('translation-title');
-                if (titleElement && translationTitles[lang]) {
-                    titleElement.textContent = translationTitles[lang];
-                }
-            }
-            
-            function showTranslation(lang, buttonElement) {
-                // Remove active class from all buttons
-                document.querySelectorAll('.lang-btn').forEach(btn => {
+            function changePageLanguage(lang, buttonElement) {
+                // Remove active class from all language buttons
+                document.querySelectorAll('.lang-btn-main').forEach(btn => {
                     btn.classList.remove('active');
                 });
                 
-                // Add active class to clicked button if provided
+                // Add active class to clicked button
                 if (buttonElement) {
-                    buttonElement.closest('.lang-btn').classList.add('active');
+                    buttonElement.classList.add('active');
                 } else {
                     // Find button by data-lang attribute
-                    document.querySelectorAll('.lang-btn').forEach(btn => {
+                    document.querySelectorAll('.lang-btn-main').forEach(btn => {
                         if (btn.getAttribute('data-lang') === lang) {
                             btn.classList.add('active');
                         }
                     });
                 }
                 
-                // Hide all translations
-                document.querySelectorAll('.translation-text').forEach(trans => {
-                    trans.style.display = 'none';
+                // Change page title (h1)
+                document.querySelectorAll('.page-title-text').forEach(text => {
+                    text.style.display = 'none';
+                });
+                document.querySelectorAll('.page-title-text.' + lang + '-title').forEach(text => {
+                    text.style.display = 'inline';
                 });
                 
-                // Show selected language translation
-                const translationClass = lang + '-translation';
-                document.querySelectorAll('.' + translationClass).forEach(trans => {
-                    trans.style.display = 'inline';
+                // Change breadcrumb
+                document.querySelectorAll('.breadcrumb-text').forEach(text => {
+                    text.style.display = 'none';
+                });
+                document.querySelectorAll('.breadcrumb-text.' + lang + '-title').forEach(text => {
+                    text.style.display = 'inline';
                 });
                 
-                // Hide all lyrics title translations (only in lyrics section)
-                document.querySelectorAll('.lyrics-title-text').forEach(title => {
-                    title.style.display = 'none';
+                // Change section titles (h2)
+                document.querySelectorAll('.section-title-text').forEach(text => {
+                    text.style.display = 'none';
+                });
+                document.querySelectorAll('.section-title-text.' + lang + '-title').forEach(text => {
+                    text.style.display = 'inline';
                 });
                 
-                // Show selected language lyrics title
-                const titleClass = lang + '-title';
-                document.querySelectorAll('.lyrics-title-text.' + titleClass).forEach(title => {
-                    title.style.display = 'inline';
+                // Change music section title
+                document.querySelectorAll('.title-text').forEach(text => {
+                    text.style.display = 'none';
+                });
+                document.querySelectorAll('.title-text.' + lang + '-title').forEach(text => {
+                    text.style.display = 'inline';
                 });
                 
-                // Update translation title based on selected language
-                updateTranslationTitle(lang);
-            }
-            
-            function showDescriptionTranslation(lang, buttonElement) {
-                // Remove active class from all description buttons
-                document.querySelectorAll('.lang-btn-desc').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                
-                // Add active class to clicked button if provided
-                if (buttonElement) {
-                    buttonElement.closest('.lang-btn-desc').classList.add('active');
-                } else {
-                    // Find button by data-lang attribute
-                    document.querySelectorAll('.lang-btn-desc').forEach(btn => {
-                        if (btn.getAttribute('data-lang') === lang) {
-                            btn.classList.add('active');
-                        }
-                    });
-                }
-                
-                // Hide all description translations
+                // Change description
                 document.querySelectorAll('.description-text').forEach(desc => {
                     desc.style.visibility = 'hidden';
                 });
-                
-                // Show selected language description
-                const descriptionClass = lang + '-description';
-                document.querySelectorAll('.' + descriptionClass).forEach(desc => {
+                document.querySelectorAll('.' + lang + '-description').forEach(desc => {
                     desc.style.visibility = 'visible';
                 });
                 
-                // Hide all description title translations (in the same highlight div as description-section)
-                const descriptionSection = document.getElementById('description-section');
-                if (descriptionSection) {
-                    const highlightDiv = descriptionSection.closest('.highlight');
-                    if (highlightDiv) {
-                        highlightDiv.querySelectorAll('.title-text').forEach(title => {
-                            title.style.display = 'none';
-                        });
-                        
-                        // Show selected language description title
-                        const titleClass = lang + '-title';
-                        highlightDiv.querySelectorAll('.title-text.' + titleClass).forEach(title => {
-                            title.style.display = 'inline';
-                        });
-                    }
-                }
-            }
-            
-            // Initialize translation title and show Italian translation on page load
-            document.addEventListener('DOMContentLoaded', function() {
-                // Find the active button for lyrics
-                const activeButton = document.querySelector('.lang-btn.active');
-                if (activeButton) {
-                    const lang = activeButton.getAttribute('data-lang');
-                    if (lang) {
-                        updateTranslationTitle(lang);
-                        // Show Italian translation by default
-                        showTranslation('italian');
-                    }
-                }
-                
-                // Initialize description translation (Italian by default)
-                showDescriptionTranslation('italian');
-                
-                // Initialize lyrics title translation (Italian by default)
+                // Change lyrics title
                 document.querySelectorAll('.lyrics-title-text').forEach(title => {
                     title.style.display = 'none';
                 });
-                document.querySelectorAll('.lyrics-title-text.italian-title').forEach(title => {
+                document.querySelectorAll('.lyrics-title-text.' + lang + '-title').forEach(title => {
                     title.style.display = 'inline';
                 });
+                
+                // Change lyrics translations
+                document.querySelectorAll('.translation-text').forEach(trans => {
+                    trans.style.display = 'none';
+                });
+                document.querySelectorAll('.' + lang + '-translation').forEach(trans => {
+                    trans.style.display = 'inline';
+                });
+            }
+            
+            // Initialize page with Italian language on page load
+            document.addEventListener('DOMContentLoaded', function() {
+                changePageLanguage('italian');
             });
         </script>
 
@@ -616,7 +546,7 @@
             margin-top: 0;
         }
         
-        .lang-btn, .lang-btn-desc {
+        .lang-btn-main {
             background-color: transparent;
             border: 1px solid var(--border-color);
             color: var(--text-color);
@@ -629,12 +559,12 @@
             margin: 0;
         }
         
-        .lang-btn:hover, .lang-btn-desc:hover {
+        .lang-btn-main:hover {
             border-color: var(--accent-color);
             color: var(--accent-color);
         }
         
-        .lang-btn.active, .lang-btn-desc.active {
+        .lang-btn-main.active {
             background-color: var(--bg-secondary);
             border-color: var(--accent-color);
             color: var(--accent-color);
@@ -718,6 +648,20 @@
             flex: 1;
             display: flex;
             flex-direction: column;
+        }
+        
+        /* Responsive styling for header with language buttons */
+        @media (max-width: 768px) {
+            div[style*="display: flex"][style*="justify-content: space-between"] {
+                flex-direction: column;
+                align-items: flex-start !important;
+                gap: 1rem;
+            }
+            
+            .language-buttons {
+                width: 100%;
+                justify-content: flex-start;
+            }
         }
         
         /* Align text lines */
