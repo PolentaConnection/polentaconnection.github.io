@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polenta XCopy - PXCopy</title>
+    <title>PXCopy - Advanced File Copy</title>
+    <meta name="description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://polentaconnection.github.io/pages/product-pxcopy.html">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://PolentaConnection.GitHub.io/pages/product-pxcopy.html">
-    <meta property="og:title" content="PXCopy - Polenta XCopy - Free Windows Utility">
-    <meta property="og:description" content="PXCopy is a powerful file copying utility that allows you to copy files based on date ranges. Perfect for backing up recent files, archiving modified documents, or organizing files by modification time.">
-    <meta property="og:image" content="https://PolentaConnection.GitHub.io/images/PXCopy.svg">
+    <meta property="og:url" content="https://polentaconnection.github.io/pages/product-pxcopy.html">
+    <meta property="og:title" content="PXCopy - Advanced File Copy - Free Windows Utility">
+    <meta property="og:description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
+    <meta property="og:image" content="https://polentaconnection.github.io/images/PXCopy.svg">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://PolentaConnection.GitHub.io/pages/product-pxcopy.html">
-    <meta property="twitter:title" content="PXCopy - Polenta XCopy - Free Windows Utility">
-    <meta property="twitter:description" content="PXCopy is a powerful file copying utility that allows you to copy files based on date ranges. Perfect for backing up recent files, archiving modified documents, or organizing files by modification time.">
-    <meta property="twitter:image" content="https://PolentaConnection.GitHub.io/images/PXCopy.svg">
+    <meta property="twitter:url" content="https://polentaconnection.github.io/pages/product-pxcopy.html">
+    <meta property="twitter:title" content="PXCopy - Advanced File Copy - Free Windows Utility">
+    <meta property="twitter:description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
+    <meta property="twitter:image" content="https://polentaconnection.github.io/images/PXCopy.svg">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -83,9 +86,11 @@
                 <div class="highlight">
                     <h3 class="text-accent">Description</h3>
                     <p>
-                        PXCopy is a powerful file copying utility that allows you to copy files 
-                        based on date ranges. Perfect for backing up recent files, archiving 
-                        modified documents, or organizing files by modification time.
+                        PXCopy is a powerful file copying utility with two main modes: copy files 
+                        by date range (e.g. last 7 days), or copy from tree A to tree B only when 
+                        the file already exists in B and is older (update-existing mode). Perfect 
+                        for backing up recent files, syncing two directory trees, or archiving by 
+                        modification time.
                     </p>
                     <p class="mb-0">
                         <strong>Platform:</strong> Windows 10/11 (x64)<br>
@@ -123,6 +128,13 @@
                 </ul>
             </li>
             <li>
+                <strong class="text-accent">Update-existing mode</strong> (<code>-u, --update-existing</code>)<br>
+                Copy from source tree to destination tree only when the file already exists in the 
+                destination (same relative path) and the destination file is <em>older</em> (less 
+                recent modification date). No date range is required. Ideal for syncing two trees 
+                or refreshing only outdated copies. Uses modification date only for the comparison.
+            </li>
+            <li>
                 <strong class="text-accent">Flexible Time Selection</strong><br>
                 Use the most specific time unit available. Minutes take priority over hours, 
                 which take priority over days, and so on.
@@ -141,8 +153,13 @@
         <div class="highlight">
             <code>PXCopy.exe -s &lt;source-pattern&gt; -d &lt;destination&gt; [date-options]</code>
         </div>
+        <div class="highlight">
+            <code>PXCopy.exe -s &lt;source-pattern&gt; -d &lt;destination&gt; -u</code><br>
+            Update-existing mode (no date range)
+        </div>
 
         <h2>Examples</h2>
+        <p><strong>By date range</strong></p>
         <div class="highlight">
             <code>PXCopy.exe -s "C:\Files\*.txt" -d "C:\Backup" --past-days 7</code><br>
             Copy all .txt files modified in the last 7 days
@@ -160,6 +177,16 @@
             Copy log files modified in the last hour
         </div>
 
+        <p><strong>Update-existing mode (copy only if file exists in destination and is older)</strong></p>
+        <div class="highlight">
+            <code>PXCopy.exe -s "C:\TreeA\*.*" -d "C:\TreeB" -u</code><br>
+            Copy from TreeA to TreeB only where the file exists in TreeB and is less recent
+        </div>
+        <div class="highlight">
+            <code>PXCopy.exe -s "D:\Source\*.xml" -d "D:\Dest" --update-existing</code><br>
+            Update only .xml files that already exist in Dest and are older than in Source
+        </div>
+
         <div class="mt-5">
             <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_1.0.zip" class="btn btn-custom" download>Download Portable</a>
             <a href="https://github.com/PolentaConnection/polentaconnection.github.io/releases/download/Latest/PXCopy_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
@@ -170,7 +197,7 @@
     <!-- Footer -->
     <footer class="text-center py-4">
         <div class="container">
-            <p class="mb-0">&copy; 2025 – Polenta Connection - PolCon202512</p>
+            <p class="mb-0">&copy; 2025 – Polenta Connection - <a href="secret-info.html" style="color: inherit; text-decoration: none; border: none;">PolCon202604</a></p>
         </div>
     </footer>
 

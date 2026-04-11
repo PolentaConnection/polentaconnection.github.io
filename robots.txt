@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /Backup/
-Disallow: /*.rar$
-Disallow: /*.zip$
 
-# Sitemap location
-Sitemap: https://PolentaConnection.GitHub.io/sitemap.xml
-
+Sitemap: https://polentaconnection.github.io/sitemap.xml
