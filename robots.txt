@@ -1,4 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://polentaconnection.github.io/sitemap.xml
+
 User-agent: *
 Allow: /
-
-Sitemap: https://polentaconnection.github.io/sitemap.xml
