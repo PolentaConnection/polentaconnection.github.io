@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5f249f"/>
+      <stop offset="100%" style="stop-color:#4f1e86"/>
+    </linearGradient>
+    <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFBF00"/>
+      <stop offset="50%" style="stop-color:#F5A623"/>
+      <stop offset="100%" style="stop-color:#D4880F"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="32" ry="32" fill="url(#bgGrad)"/>
+
+  <rect x="48" y="58" width="160" height="150" rx="12" fill="#ffffff" stroke="#e2d4f4" stroke-width="3"/>
+
+  <rect x="62" y="74" width="132" height="18" rx="4" fill="#f6efff"/>
+  <rect x="62" y="100" width="90" height="10" rx="2" fill="#e9d5ff"/>
+  <rect x="62" y="118" width="110" height="10" rx="2" fill="#e9d5ff"/>
+  <rect x="62" y="136" width="76" height="10" rx="2" fill="#e9d5ff"/>
+
+  <rect x="62" y="158" width="132" height="34" rx="6" fill="#f6efff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="78" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#5f249f">Kcal</text>
+  <text x="170" y="180" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#4f1e86" text-anchor="end">1850</text>
+
+  <g transform="translate(168, 88)">
+    <path d="M0 28 L0 48 Q0 56 8 56 L38 56 Q46 56 46 48 L46 28 Z" fill="url(#potGrad)"/>
+    <rect x="-3" y="22" width="52" height="8" rx="3" fill="url(#potGrad)"/>
+    <circle cx="14" cy="38" r="2.5" fill="#D4880F"/>
+    <circle cx="24" cy="35" r="2.5" fill="#D4880F"/>
+    <circle cx="34" cy="40" r="2.5" fill="#D4880F"/>
+  </g>
+</svg>

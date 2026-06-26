@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://polentaconnection.github.io/</loc>
+        <loc>https://polentaconnection.github.io</loc>
         <lastmod>2026-06-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -107,6 +107,18 @@
     <url>
         <loc>https://polentaconnection.github.io/pages/product-pxcopy.html</loc>
         <lastmod>2026-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://polentaconnection.github.io/pages/product-polentamealplanner.html</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://polentaconnection.github.io/pages/product-polentatodowallpaper.html</loc>
+        <lastmod>2026-06-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
