@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PElevate - Run as Admin</title>
+    <title>Polenta Connection - PElevate - Run as Admin</title>
     <meta name="description" content="A simple utility to run commands or applications with administrative privileges from the command line.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://polentaconnection.github.io/pages/product-pelevate.html">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://polentaconnection.github.io/pages/product-pelevate.html">
     <meta property="og:title" content="PElevate - Run as Admin - Free Windows Utility">
     <meta property="og:description" content="A simple utility to run commands or applications with administrative privileges from the command line.">
     <meta property="og:image" content="https://polentaconnection.github.io/images/PElevate.svg">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://polentaconnection.github.io/pages/product-pelevate.html">
@@ -86,9 +86,9 @@
                 <div class="highlight">
                     <h3 class="text-accent">Description</h3>
                     <p>
-                        PElevate is a Windows utility that elevates batch files to administrator 
-                        privileges using UAC (User Account Control). It automatically checks 
-                        if running as admin and requests elevation if needed. Perfect for batch 
+                        PElevate is a Windows utility that elevates batch files to administrator
+                        privileges using UAC (User Account Control). It automatically checks
+                        if running as admin and requests elevation if needed. Perfect for batch
                         scripts that require administrator rights.
                     </p>
                     <p class="mb-0">
@@ -108,38 +108,38 @@
         <ul>
             <li>
                 <strong class="text-accent">Automatic Admin Detection</strong><br>
-                Checks if the current process is running with administrator privileges using 
+                Checks if the current process is running with administrator privileges using
                 the same method as standard batch file elevation scripts.
             </li>
             <li>
                 <strong class="text-accent">Auto-Detect Batch File</strong><br>
-                When called with no arguments, automatically detects the calling batch file 
-                and elevates it. Perfect for simple usage: just add <code>PElevate.exe</code> 
+                When called with no arguments, automatically detects the calling batch file
+                and elevates it. Perfect for simple usage: just add <code>PElevate.exe</code>
                 at the top of your batch file.
             </li>
             <li>
                 <strong class="text-accent">UAC Elevation</strong><br>
-                Uses PowerShell to request UAC elevation, restarting the batch file with 
+                Uses PowerShell to request UAC elevation, restarting the batch file with
                 administrator privileges if needed.
             </li>
             <li>
                 <strong class="text-accent">Seamless Integration</strong><br>
-                Works exactly like traditional batch file elevation scripts, but as a 
+                Works exactly like traditional batch file elevation scripts, but as a
                 standalone executable. No need to embed PowerShell commands in your batch files.
             </li>
             <li>
                 <strong class="text-accent">Explicit File Support</strong><br>
-                Can also elevate specific batch files by path, useful for calling from 
+                Can also elevate specific batch files by path, useful for calling from
                 other scripts or applications.
             </li>
             <li>
                 <strong class="text-accent">Error Handling</strong><br>
-                Returns appropriate exit codes: 0 if already admin (batch continues), 
+                Returns appropriate exit codes: 0 if already admin (batch continues),
                 1 if elevation successful (batch should exit and restart), 2 if elevation failed.
             </li>
             <li>
                 <strong class="text-accent">Lightweight & Portable</strong><br>
-                No installation required! Just a single executable that's ready to use 
+                No installation required! Just a single executable that's ready to use
                 in your batch files. Zero dependencies.
             </li>
             <li>
@@ -194,21 +194,21 @@
         </p>
         <ol>
             <li>
-                <strong>Check Admin Status:</strong> Uses <code>net session</code> to check if 
+                <strong>Check Admin Status:</strong> Uses <code>net session</code> to check if
                 running with administrator privileges.
             </li>
             <li>
-                <strong>If Already Admin:</strong> Exits with code 0, allowing the batch file 
+                <strong>If Already Admin:</strong> Exits with code 0, allowing the batch file
                 to continue execution.
             </li>
             <li>
-                <strong>If Not Admin:</strong> Uses PowerShell's <code>Start-Process</code> with 
-                <code>-Verb RunAs</code> to request UAC elevation and restart the batch file 
+                <strong>If Not Admin:</strong> Uses PowerShell's <code>Start-Process</code> with
+                <code>-Verb RunAs</code> to request UAC elevation and restart the batch file
                 as administrator. Exits with code 1 to signal the original batch file should exit.
             </li>
             <li>
-                <strong>Elevated Restart:</strong> The batch file restarts with administrator 
-                privileges, PElevate detects it's already admin, and the batch file continues 
+                <strong>Elevated Restart:</strong> The batch file restarts with administrator
+                privileges, PElevate detects it's already admin, and the batch file continues
                 with full privileges.
             </li>
         </ol>
@@ -230,7 +230,7 @@
     <!-- Footer -->
     <footer class="text-center py-4">
         <div class="container">
-            <p class="mb-0">&copy; 2025 – Polenta Connection - <a href="secret-info.html" style="color: inherit; text-decoration: none; border: none;">PolCon202604</a></p>
+            <p class="mb-0">&copy; 2025 – Polenta Connection - <a href="secret-info.html" style="color: inherit; text-decoration: none; border: none;">PolCon2607</a></p>
             <p class="mb-0 mt-1" style="font-size: 12px;"><a href="https://polentaconnection.github.io/sitemap.xml">Sitemap</a></p>
         </div>
     </footer>
