@@ -661,6 +661,17 @@ li {
     break-inside: avoid;
 }
 
+.site-pages-sitemap {
+    list-style: none;
+    padding: 12px 0 0 0;
+    margin: 12px 0 0 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.site-pages-sitemap li {
+    margin-bottom: 0;
+}
+
 @media (max-width: 576px) {
     .site-pages-grid {
         columns: 1;

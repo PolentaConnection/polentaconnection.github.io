@@ -53,7 +53,6 @@ def build_footer() -> str:
     <footer class="text-center py-4">
         <div class="container">
             <p class="mb-0">&copy; 2025 – Polenta Connection - <a href="{_page_url("secret-info.html")}" style="color: inherit; text-decoration: none; border: none;">PolCon2607</a></p>
-            <p class="mb-0 mt-1" style="font-size: 12px;"><a href="{SITE_BASE}/sitemap.xml">Sitemap</a></p>
 
             <div class="site-pages-panel mt-3">
                 <button class="site-pages-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sitePagesList" aria-expanded="false" aria-controls="sitePagesList">
@@ -76,6 +75,9 @@ def build_footer() -> str:
                                 </ul>
                             </div>
                         </div>
+                        <ul class="site-pages-sitemap mb-0">
+                            <li><a href="{SITE_BASE}/sitemap.xml">Sitemap</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
