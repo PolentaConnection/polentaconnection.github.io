@@ -4,5 +4,3 @@ Sitemap: https://polentaconnection.github.io/sitemap.xml
 
 User-agent: *
 Allow: /
-Allow: /pages/product-polentamealplanner.html
-Allow: /pages/product-polentatodowallpaper.html
