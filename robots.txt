@@ -1,6 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
-# Polenta Connection — https://polentaconnection.com
-Sitemap: https://polentaconnection.com/sitemap.xml
+# Polenta Connection — https://PolentaConnection.com
+Sitemap: https://PolentaConnection.com/sitemap.xml
 
 User-agent: *
 Allow: /
