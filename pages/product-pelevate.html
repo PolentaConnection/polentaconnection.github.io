@@ -126,9 +126,10 @@
             </li>
             <li>
                 <strong class="text-accent">Auto-Detect Batch File</strong><br>
-                When called with no arguments, automatically detects the calling batch file
-                and elevates it. Perfect for simple usage: just add <code>PElevate.exe</code>
-                at the top of your batch file.
+                When called with no arguments from a batch file, PElevate inspects the parent
+                <code>cmd.exe</code> process and elevates the calling script automatically.
+                Just add <code>PElevate.exe</code> at the top of your batch file.
+                If detection fails (unusual launchers), use <code>PElevate.exe "%~f0"</code> instead.
             </li>
             <li>
                 <strong class="text-accent">UAC Elevation</strong><br>
@@ -178,7 +179,7 @@
             ProgramThatNeedsElevation.exe</code>
         </div>
         <p>
-            <strong>Explicit usage with batch file path:</strong>
+            <strong>Explicit usage (recommended if auto-detect fails):</strong>
         </p>
         <div class="highlight">
             <code>PElevate.exe "%~f0"<br>
