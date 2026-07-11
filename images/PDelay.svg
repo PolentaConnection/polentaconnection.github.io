@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="clockGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#e5e5e5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="16" y="16" width="224" height="224" rx="32" ry="32" fill="url(#bgGrad)"/>
+  
+  <!-- Clock face -->
+  <circle cx="128" cy="128" r="80" fill="url(#clockGrad)"/>
+  <circle cx="128" cy="128" r="70" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  
+  <!-- Hour markers -->
+  <line x1="128" y1="65" x2="128" y2="75" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <line x1="128" y1="181" x2="128" y2="191" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <line x1="65" y1="128" x2="75" y2="128" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <line x1="181" y1="128" x2="191" y2="128" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Clock hands -->
+  <!-- Hour hand -->
+  <line x1="128" y1="128" x2="128" y2="85" stroke="#7c3aed" stroke-width="6" stroke-linecap="round"/>
+  <!-- Minute hand -->
+  <line x1="128" y1="128" x2="165" y2="100" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="128" cy="128" r="8" fill="#7c3aed"/>
+  
+  <!-- "P" badge -->
+  <circle cx="200" cy="56" r="28" fill="#fbbf24"/>
+  <text x="188" y="67" font-family="Arial Black, Arial, sans-serif" font-size="32" font-weight="900" fill="#7c3aed">P</text>
+  
+  <!-- "Z z z" sleep indicator -->
+  <text x="45" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" opacity="0.8">Z</text>
+  <text x="60" y="55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" opacity="0.6">z</text>
+  <text x="72" y="43" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" opacity="0.4">z</text>
+</svg>
+

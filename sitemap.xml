@@ -12,16 +12,9 @@
 
     <url>
         <loc>https://PolentaConnection.com/pages/products.html</loc>
-        <lastmod>2026-07-10</lastmod>
+        <lastmod>2026-07-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-    </url>
-
-    <url>
-        <loc>https://PolentaConnection.com/pages/product-pxcopy.html</loc>
-        <lastmod>2026-07-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
     </url>
 
     <url>
@@ -36,6 +29,76 @@
         <lastmod>2026-07-11</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pa2z.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pbeep.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pdelay.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pelevate.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pformatxml.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-piconconvert.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pplayaudio.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pplaymidi.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-ptouch.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://PolentaConnection.com/pages/product-pxcopy.html</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 
 </urlset>

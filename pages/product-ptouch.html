@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polenta Connection - PXCopy - Advanced File Copy</title>
-    <meta name="description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
+    <title>Polenta Connection - PTouch - File Touch Utility</title>
+    <meta name="description" content="A command-line utility to update file access and modification timestamps. Similar to the Unix touch command.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://PolentaConnection.com/pages/product-pxcopy.html">
+    <link rel="canonical" href="https://PolentaConnection.com/pages/product-ptouch.html">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://PolentaConnection.com/pages/product-pxcopy.html">
-    <meta property="og:title" content="PXCopy - Advanced File Copy - Free Windows Utility">
-    <meta property="og:description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
-    <meta property="og:image" content="https://PolentaConnection.com/images/PXCopy.svg">
+    <meta property="og:url" content="https://PolentaConnection.com/pages/product-ptouch.html">
+    <meta property="og:title" content="PTouch - File Touch Utility - Free Windows Utility">
+    <meta property="og:description" content="A command-line utility to update file access and modification timestamps. Similar to the Unix touch command.">
+    <meta property="og:image" content="https://PolentaConnection.com/images/PTouch.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://PolentaConnection.com/pages/product-pxcopy.html">
-    <meta property="twitter:title" content="PXCopy - Advanced File Copy - Free Windows Utility">
-    <meta property="twitter:description" content="A powerful command-line utility for advanced file copying, mirroring, and synchronization.">
-    <meta property="twitter:image" content="https://PolentaConnection.com/images/PXCopy.svg">
+    <meta property="twitter:url" content="https://PolentaConnection.com/pages/product-ptouch.html">
+    <meta property="twitter:title" content="PTouch - File Touch Utility - Free Windows Utility">
+    <meta property="twitter:description" content="A command-line utility to update file access and modification timestamps. Similar to the Unix touch command.">
+    <meta property="twitter:image" content="https://PolentaConnection.com/images/PTouch.svg">
         <script>(function(){var t=localStorage.getItem('pc-theme')||'vscode';document.documentElement.setAttribute('data-theme',t);})();</script>
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/themes.css" rel="stylesheet">
@@ -78,37 +78,35 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="products.html">Products</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Polenta XCopy - PXCopy</li>
+                <li class="breadcrumb-item active" aria-current="page">Polenta Touch - PTouch</li>
             </ol>
         </nav>
 
         <div class="d-flex justify-content-between align-items-center">
-            <h1 class="mb-0">Polenta XCopy - PXCopy</h1>
+            <h1 class="mb-0">Polenta Touch - PTouch</h1>
             <div>
-                <a href="https://github.com/PolentaConnection/PXCopy/releases/latest/download/PXCopy_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-                <a href="https://github.com/PolentaConnection/PXCopy/releases/latest/download/PXCopy_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
+                <a href="https://github.com/PolentaConnection/PTouch/releases/latest/download/PTouch_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+                <a href="https://github.com/PolentaConnection/PTouch/releases/latest/download/PTouch_Setup_1.0.zip" class="btn btn-custom ms-2" download>Download Installer</a>
             </div>
         </div>
         <hr class="divider">
 
         <div class="row g-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img src="../images/PXCopy.svg" alt="PXCopy Icon" style="width: 280px; height: 280px;">
+                <img src="../images/PTouch.svg" alt="PTouch Icon" style="width: 280px; height: 280px;">
             </div>
             <div class="col-lg-7">
                 <div class="highlight">
                     <h3 class="text-accent">Description</h3>
                     <p>
-                        PXCopy is a powerful file copying utility with two main modes: copy files
-                        by date range (e.g. last 7 days), or copy from tree A to tree B only when
-                        the file already exists in B and is older (update-existing mode). Perfect
-                        for backing up recent files, syncing two directory trees, or archiving by
-                        modification time.
+                        PTouch is a Windows clone of the Unix touch command. It creates empty files
+                        or updates the access and modification timestamps of existing files. Perfect
+                        for automation scripts, build systems, and file management tasks.
                     </p>
                     <p class="mb-0">
                         <strong>Platform:</strong> Windows 10/11 (x64)<br>
                         <strong>License:</strong> Freeware<br>
-                        <strong>Version:</strong> 1.0.0<br>
+                        <strong>Version:</strong> 1.0.0
                     </p>
                 </div>
             </div>
@@ -116,45 +114,49 @@
 
         <h2>Features</h2>
         <p>
-            PXCopy provides flexible file copying with date-based filtering:
+            PTouch provides full control over file timestamps with Unix-compatible options:
         </p>
 
         <ul>
             <li>
-                <strong class="text-accent">Source Pattern</strong> (<code>-s, --source</code>)<br>
-                Specify source files using glob patterns like <code>"path/*.txt"</code> or
-                <code>"C:\Documents\*.docx"</code>.
+                <strong class="text-accent">Create Empty Files</strong><br>
+                Create new empty files if they don't exist. Perfect for initializing log files,
+                lock files, or placeholder files in your scripts.
             </li>
             <li>
-                <strong class="text-accent">Destination Directory</strong> (<code>-d, --dest</code>)<br>
-                Set the destination folder where files will be copied.
+                <strong class="text-accent">Update Timestamps</strong><br>
+                Update access and modification times of existing files to the current time,
+                or set them to specific values.
             </li>
             <li>
-                <strong class="text-accent">Date Range Options</strong><br>
-                Filter files by modification date using multiple convenient methods:
-                <ul style="margin-top: 8px;">
-                    <li><code>--start-date</code> / <code>--end-date</code> - Specific date range (YYYY-MM-DD)</li>
-                    <li><code>--past-weeks</code> - Files from N weeks ago</li>
-                    <li><code>--past-days</code> - Files from N days ago</li>
-                    <li><code>--past-hours</code> - Files from N hours ago</li>
-                    <li><code>--past-mins</code> - Files from N minutes ago</li>
-                </ul>
+                <strong class="text-accent">Access Time Only</strong> (<code>-a, --access</code>)<br>
+                Update only the access time, leaving the modification time unchanged.
             </li>
             <li>
-                <strong class="text-accent">Update-existing mode</strong> (<code>-u, --update-existing</code>)<br>
-                Copy from source tree to destination tree only when the file already exists in the
-                destination (same relative path) and the destination file is <em>older</em> (less
-                recent modification date). No date range is required. Ideal for syncing two trees
-                or refreshing only outdated copies. Uses modification date only for the comparison.
+                <strong class="text-accent">Modification Time Only</strong> (<code>-m, --modify</code>)<br>
+                Update only the modification time, leaving the access time unchanged.
             </li>
             <li>
-                <strong class="text-accent">Flexible Time Selection</strong><br>
-                Use the most specific time unit available. Minutes take priority over hours,
-                which take priority over days, and so on.
+                <strong class="text-accent">No Create Mode</strong> (<code>-c, --no-create</code>)<br>
+                Don't create files if they don't exist. Only update timestamps of existing files.
+            </li>
+            <li>
+                <strong class="text-accent">Reference File</strong> (<code>-r, --reference</code>)<br>
+                Use the timestamps from another file instead of the current time.
+                Great for synchronizing file times.
+            </li>
+            <li>
+                <strong class="text-accent">Custom Timestamp</strong> (<code>-t, --time</code>)<br>
+                Set a specific timestamp using formats like <code>202501151430</code> or <code>2501151430</code>.
+            </li>
+            <li>
+                <strong class="text-accent">Multiple Files</strong><br>
+                Touch multiple files in a single command. Process entire directories efficiently.
             </li>
             <li>
                 <strong class="text-accent">Lightweight & Portable</strong><br>
-                Single executable with no installation required. Perfect for backup scripts.
+                No installation required! Just a single executable that's ready to use
+                in your scripts, batch files, or automation workflows. Zero dependencies.
             </li>
             <li>
                 <strong class="text-accent">Quick Links</strong> (<code>-ws, --website</code> / <code>-don, --donate</code>)<br>
@@ -164,45 +166,64 @@
 
         <h2>Usage</h2>
         <div class="highlight">
-            <code>PXCopy.exe -s &lt;source-pattern&gt; -d &lt;destination&gt; [date-options]</code>
-        </div>
-        <div class="highlight">
-            <code>PXCopy.exe -s &lt;source-pattern&gt; -d &lt;destination&gt; -u</code><br>
-            Update-existing mode (no date range)
+            <code>PTouch.exe [options] file1 [file2 ...]</code>
         </div>
 
         <h2>Examples</h2>
-        <p><strong>By date range</strong></p>
         <div class="highlight">
-            <code>PXCopy.exe -s "C:\Files\*.txt" -d "C:\Backup" --past-days 7</code><br>
-            Copy all .txt files modified in the last 7 days
+            <code>PTouch.exe file.txt</code><br>
+            Create file.txt if it doesn't exist, or update its timestamp to current time
         </div>
         <div class="highlight">
-            <code>PXCopy.exe -s "*.docx" -d "D:\Archive" --past-hours 24</code><br>
-            Copy all Word documents modified in the last 24 hours
+            <code>PTouch.exe file1.txt file2.txt file3.txt</code><br>
+            Touch multiple files at once
         </div>
         <div class="highlight">
-            <code>PXCopy.exe -s "C:\Projects\*.*" -d "E:\Backup" --start-date 2024-01-01 --end-date 2024-12-31</code><br>
-            Copy all files modified in 2024
+            <code>PTouch.exe -c file.txt</code><br>
+            Only update timestamp if file exists (don't create)
         </div>
         <div class="highlight">
-            <code>PXCopy.exe -s "C:\Logs\*.log" -d "D:\Recent" --past-mins 60</code><br>
-            Copy log files modified in the last hour
+            <code>PTouch.exe -a file.txt</code><br>
+            Update only the access time
+        </div>
+        <div class="highlight">
+            <code>PTouch.exe -m file.txt</code><br>
+            Update only the modification time
+        </div>
+        <div class="highlight">
+            <code>PTouch.exe -r reference.txt file.txt</code><br>
+            Copy timestamps from reference.txt to file.txt
+        </div>
+        <div class="highlight">
+            <code>PTouch.exe -t 202501151430 file.txt</code><br>
+            Set timestamp to January 15, 2025 at 14:30
+        </div>
+        <div class="highlight">
+            <code>PTouch.exe -t 2501151430 file.txt</code><br>
+            Set timestamp (year 2025, Jan 15 14:30)
+        </div>
+        <div class="highlight">
+            <code>PTouch.exe -t 01151430 file.txt</code><br>
+            Set timestamp using current year (Jan 15 14:30)
         </div>
 
-        <p><strong>Update-existing mode (copy only if file exists in destination and is older)</strong></p>
+        <h2>Timestamp Format</h2>
+        <p>
+            The <code>-t, --time</code> option accepts timestamps in the format:
+        </p>
         <div class="highlight">
-            <code>PXCopy.exe -s "C:\TreeA\*.*" -d "C:\TreeB" -u</code><br>
-            Copy from TreeA to TreeB only where the file exists in TreeB and is less recent
+            <code>[[CC]YY]MMDDhhmm[.ss]</code>
         </div>
-        <div class="highlight">
-            <code>PXCopy.exe -s "D:\Source\*.xml" -d "D:\Dest" --update-existing</code><br>
-            Update only .xml files that already exist in Dest and are older than in Source
-        </div>
+        <ul>
+            <li><code>202501151430</code> = 2025-01-15 14:30:00</li>
+            <li><code>2501151430</code> = 2025-01-15 14:30:00 (year 2025)</li>
+            <li><code>01151430</code> = Current year, January 15 14:30:00</li>
+            <li><code>202501151430.45</code> = 2025-01-15 14:30:45</li>
+        </ul>
 
         <div class="mt-5">
-            <a href="https://github.com/PolentaConnection/PXCopy/releases/latest/download/PXCopy_1.0.zip" class="btn btn-custom" download>Download Portable</a>
-            <a href="https://github.com/PolentaConnection/PXCopy/releases/latest/download/PXCopy_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
+            <a href="https://github.com/PolentaConnection/PTouch/releases/latest/download/PTouch_1.0.zip" class="btn btn-custom" download>Download Portable</a>
+            <a href="https://github.com/PolentaConnection/PTouch/releases/latest/download/PTouch_Setup_1.0.zip" class="btn btn-custom ms-2">Download Installer</a>
             <a href="products.html" class="btn btn-custom ms-2">Back to Products</a>
         </div>
     </main>
