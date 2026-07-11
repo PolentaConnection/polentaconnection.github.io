@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+
+    <Program_Info>
+
+        <Program_Name>Polenta ToDo Wallpaper</Program_Name>
+
+        <Program_Description>Polenta ToDo Wallpaper is a free Windows desktop application that shows your daily to-do list as a panel on the desktop wallpaper layer. It stays behind other windows, supports click-through mode by default, and is controlled from the system tray. Customize colors, opacity, size and position.</Program_Description>
+
+        <Company_Name>Polenta Connection</Company_Name>
+
+        <Author_First_Name>Polenta</Author_First_Name>
+
+        <Author_Last_Name>Connection</Author_Last_Name>
+
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+
+        <Application_Type>Utility</Application_Type>
+
+        <Application_Category>Home and Hobby</Application_Category>
+
+        <Category_Description>Productivity</Category_Description>
+
+        <Keywords>todo list, desktop wallpaper, task manager, productivity, system tray, click-through, windows</Keywords>
+
+        <Language>English</Language>
+
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+
+        <Release_Date>2026-06-16</Release_Date>
+
+        <Program_Version>1.0.0</Program_Version>
+
+        <File_Size>25000</File_Size>
+
+        <License_Cost>Freeware</License_Cost>
+
+        <License_Type>Freeware</License_Type>
+
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-polentatodowallpaper.html</Program_Info_URL>
+
+    </Program_Info>
+
+    <Download_Info>
+
+        <Download_URL>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_1.0.zip</Download_URL>
+
+        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_Setup_1.0.zip</Download_URL_Setup>
+
+    </Download_Info>
+
+</XML_DIZ>

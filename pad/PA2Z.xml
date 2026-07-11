@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <Program_Info>
+        <Program_Name>PA2Z</Program_Name>
+        <Program_Description>PA2Z is a comprehensive command-line utility that combines multiple tools in one powerful application. It includes file copying, icon conversion, sleep timers, audio/MIDI playback, and beep functionality.</Program_Description>
+        <Company_Name>Polenta Connection</Company_Name>
+        <Author_First_Name>Polenta</Author_First_Name>
+        <Author_Last_Name>Connection</Author_Last_Name>
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+        <Application_Type>Utility</Application_Type>
+        <Application_Category>Utilities</Application_Category>
+        <Category_Description>System Utilities</Category_Description>
+        <Keywords>utility, command-line, file copy, icon converter, audio player, MIDI player, beep, automation</Keywords>
+        <Language>English</Language>
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+        <Release_Date>2025-01-15</Release_Date>
+        <Program_Version>1.0.0</Program_Version>
+        <File_Size>1000</File_Size>
+        <License_Cost>Freeware</License_Cost>
+        <License_Type>Freeware</License_Type>
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-pa2z.html</Program_Info_URL>
+    </Program_Info>
+    <Download_Info>
+        <Download_URL>https://github.com/PolentaConnection/PA2Z/releases/latest/download/PA2Z_1.0.zip</Download_URL>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PA2Z/releases/latest/download/PA2Z_Setup_1.0.zip</Download_URL_Setup>
+    </Download_Info>
+</XML_DIZ>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <Program_Info>
+        <Program_Name>PPlayAudio</Program_Name>
+        <Program_Description>PPlayAudio is a lightweight command-line audio player that supports multiple audio formats. Perfect for playing sound effects, music, or notifications in your batch scripts and automation workflows.</Program_Description>
+        <Company_Name>Polenta Connection</Company_Name>
+        <Author_First_Name>Polenta</Author_First_Name>
+        <Author_Last_Name>Connection</Author_Last_Name>
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+        <Application_Type>Utility</Application_Type>
+        <Application_Category>Multimedia</Application_Category>
+        <Category_Description>Audio Players</Category_Description>
+        <Keywords>audio player, command-line, MP3, WAV, OGG, automation, batch</Keywords>
+        <Language>English</Language>
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+        <Release_Date>2025-01-15</Release_Date>
+        <Program_Version>1.0.0</Program_Version>
+        <File_Size>600</File_Size>
+        <License_Cost>Freeware</License_Cost>
+        <License_Type>Freeware</License_Type>
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-pplayaudio.html</Program_Info_URL>
+    </Program_Info>
+    <Download_Info>
+        <Download_URL>https://github.com/PolentaConnection/PPlayAudio/releases/latest/download/PPlayAudio_1.0.zip</Download_URL>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PPlayAudio/releases/latest/download/PPlayAudio_Setup_1.0.zip</Download_URL_Setup>
+    </Download_Info>
+</XML_DIZ>

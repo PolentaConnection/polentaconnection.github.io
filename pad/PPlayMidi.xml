@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <Program_Info>
+        <Program_Name>PPlayMidi</Program_Name>
+        <Program_Description>PPlayMidi is a simple command-line MIDI file player for Windows. Perfect for playing background music, sound effects, or musical sequences in your automation scripts.</Program_Description>
+        <Company_Name>Polenta Connection</Company_Name>
+        <Author_First_Name>Polenta</Author_First_Name>
+        <Author_Last_Name>Connection</Author_Last_Name>
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+        <Application_Type>Utility</Application_Type>
+        <Application_Category>Multimedia</Application_Category>
+        <Category_Description>Audio Players</Category_Description>
+        <Keywords>MIDI player, command-line, music, automation, batch</Keywords>
+        <Language>English</Language>
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+        <Release_Date>2025-01-15</Release_Date>
+        <Program_Version>1.0.0</Program_Version>
+        <File_Size>600</File_Size>
+        <License_Cost>Freeware</License_Cost>
+        <License_Type>Freeware</License_Type>
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-pplaymidi.html</Program_Info_URL>
+    </Program_Info>
+    <Download_Info>
+        <Download_URL>https://github.com/PolentaConnection/PPlayMidi/releases/latest/download/PPlayMidi_1.0.zip</Download_URL>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PPlayMidi/releases/latest/download/PPlayMidi_Setup_1.0.zip</Download_URL_Setup>
+    </Download_Info>
+</XML_DIZ>
