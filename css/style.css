@@ -116,7 +116,16 @@ a:hover {
 .theme-select-item {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
     margin-left: 0.5rem;
+}
+
+.theme-select-label {
+    color: var(--nav-link-color, var(--text-color));
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+    cursor: default;
 }
 
 .theme-select {
@@ -168,9 +177,47 @@ a:hover {
     margin-bottom: 15px;
 }
 
+.card-title a {
+    color: inherit;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: var(--accent-hover);
+    border-bottom: 1px dotted var(--accent-hover);
+}
+
+h3.text-accent a {
+    color: inherit;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+h3.text-accent a:hover {
+    color: var(--accent-hover);
+    border-bottom: 1px dotted var(--accent-hover);
+}
+
 .card-text {
     color: var(--text-color);
     font-size: 16px;
+}
+
+.product-card-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+a.product-card-icon-link {
+    border-bottom: none;
+    line-height: 0;
+}
+
+a.product-card-icon-link:hover {
+    border-bottom: none;
+    opacity: 0.85;
 }
 
 /* Custom Button */
