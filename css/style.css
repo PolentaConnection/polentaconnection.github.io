@@ -763,8 +763,37 @@ li {
 .visitor-map-content {
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0 0.25rem;
+    padding: 0.75rem 0.5rem 0.5rem;
+    min-height: 180px;
+    width: 100%;
+    overflow: visible;
+}
+
+.footer-panels .collapse .site-pages-content {
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+#mapmyvisitors-holder {
+    width: 100%;
+    max-width: 900px;
+}
+
+#mapmyvisitors-widget {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.mapmyvisitors-tracker {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    width: 900px;
+    height: 450px;
     overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 @media (max-width: 576px) {
