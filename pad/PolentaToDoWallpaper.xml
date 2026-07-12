@@ -7,7 +7,7 @@
 
         <Program_Name>Polenta ToDo Wallpaper</Program_Name>
 
-        <Program_Description>Polenta ToDo Wallpaper is a free Windows desktop application that shows your daily to-do list as a panel on the desktop wallpaper layer. It stays behind other windows, supports click-through mode by default, and is controlled from the system tray. Customize colors, opacity, size and position.</Program_Description>
+        <Program_Description>Polenta ToDo Wallpaper is a free Windows desktop application that shows your daily to-do list in a compact panel on the desktop. Customize colors, opacity, and panel size as a percentage of the screen, edit tasks from the panel, and control the app from the system tray. Available as a portable zip or installer with data stored locally or under AppData.</Program_Description>
 
         <Company_Name>Polenta Connection</Company_Name>
 
@@ -27,15 +27,15 @@
 
         <Category_Description>Productivity</Category_Description>
 
-        <Keywords>todo list, desktop wallpaper, task manager, productivity, system tray, click-through, windows</Keywords>
+        <Keywords>todo list, desktop panel, task manager, productivity, system tray, wallpaper, windows, portable</Keywords>
 
         <Language>English</Language>
 
         <Operating_System>Windows 10, Windows 11</Operating_System>
 
-        <Release_Date>2026-06-16</Release_Date>
+        <Release_Date>2026-07-12</Release_Date>
 
-        <Program_Version>1.0.0</Program_Version>
+        <Program_Version>2.4.5.6</Program_Version>
 
         <File_Size>25000</File_Size>
 
@@ -49,9 +49,9 @@
 
     <Download_Info>
 
-        <Download_URL>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_1.0.zip</Download_URL>
+        <Download_URL>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_2.4.5.6.zip</Download_URL>
 
-        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_Setup_1.0.zip</Download_URL_Setup>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_Setup_2.4.5.6.zip</Download_URL_Setup>
 
     </Download_Info>
 
