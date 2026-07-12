@@ -35,7 +35,7 @@
 
         <Release_Date>2026-07-12</Release_Date>
 
-        <Program_Version>2.4.5.6</Program_Version>
+        <Program_Version>1.0.0</Program_Version>
 
         <File_Size>25000</File_Size>
 
@@ -49,9 +49,9 @@
 
     <Download_Info>
 
-        <Download_URL>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_2.4.5.6.zip</Download_URL>
+        <Download_URL>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_1.0.zip</Download_URL>
 
-        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_Setup_2.4.5.6.zip</Download_URL_Setup>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaToDoWallpaper/releases/latest/download/PolentaToDoWallpaper_Setup_1.0.zip</Download_URL_Setup>
 
     </Download_Info>
 
