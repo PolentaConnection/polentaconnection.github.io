@@ -1,0 +1,4 @@
+(function () {
+  window.PolentaProductScreenshots = window.PolentaProductScreenshots || {};
+  window.PolentaProductScreenshots["PolentaToDoWallpaper"] = {"product": "PolentaToDoWallpaper", "items": [{"file": "01-main-panel.png", "alt": "Polenta ToDo Wallpaper desktop panel showing a scrolling to-do list on the wallpaper", "caption": "Desktop to-do panel with sample list and continuous scroll on the wallpaper."}, {"file": "02-settings.png", "alt": "Polenta ToDo Wallpaper settings panel", "caption": "Settings for language, position, size, typography, overflow, transparency, and colors."}]};
+})();
