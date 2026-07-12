@@ -3,7 +3,7 @@
     <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
     <Program_Info>
         <Program_Name>Polenta Meal Planner</Program_Name>
-        <Program_Description>Polenta Meal Planner is a free Windows desktop application for planning daily meals. Build a personal food database, organize breakfast, lunch, dinner and snacks, track calories, protein, carbs and fats, and export your daily menu. Ideal for meal planning, macro tracking, and nutrition-aware weekly menus.</Program_Description>
+        <Program_Description>Polenta Meal Planner is a free Windows desktop application for planning daily meals. Build a personal food database, organize breakfast, lunch, dinner and snacks, track calories, protein, carbs and fats, and export your daily menu.</Program_Description>
         <Company_Name>Polenta Connection</Company_Name>
         <Author_First_Name>Polenta</Author_First_Name>
         <Author_Last_Name>Connection</Author_Last_Name>
@@ -13,7 +13,7 @@
         <Application_Type>Utility</Application_Type>
         <Application_Category>Home and Hobby</Application_Category>
         <Category_Description>Health and Nutrition</Category_Description>
-        <Keywords>meal planner, nutrition, macro tracker, food database, daily menu, calories, protein, carbs, diet planner, windows</Keywords>
+        <Keywords>meal planner, nutrition, calories, macros, food database, menu, diet, windows</Keywords>
         <Language>English</Language>
         <Operating_System>Windows 10, Windows 11</Operating_System>
         <Release_Date>2026-06-05</Release_Date>
