@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+
+    <Program_Info>
+
+        <Program_Name>Klepsidra</Program_Name>
+
+        <Program_Description>Klepsidra is a free Windows local web application built with Flask. Run the executable to start a localhost server and open the app in your browser. Available as a portable zip or installer from Polenta Connection.</Program_Description>
+
+        <Company_Name>Polenta Connection</Company_Name>
+
+        <Author_First_Name>Polenta</Author_First_Name>
+
+        <Author_Last_Name>Connection</Author_Last_Name>
+
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+
+        <Application_Type>Utility</Application_Type>
+
+        <Application_Category>Home and Hobby</Application_Category>
+
+        <Category_Description>Productivity</Category_Description>
+
+        <Keywords>flask, web application, localhost, hourglass, timer, windows, portable</Keywords>
+
+        <Language>English</Language>
+
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+
+        <Release_Date>2026-07-13</Release_Date>
+
+        <Program_Version>0.0.1</Program_Version>
+
+        <File_Size>25000</File_Size>
+
+        <License_Cost>Freeware</License_Cost>
+
+        <License_Type>Freeware</License_Type>
+
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-klepsidra.html</Program_Info_URL>
+
+    </Program_Info>
+
+    <Download_Info>
+
+        <Download_URL>https://github.com/PolentaConnection/Klepsidra/releases/latest/download/Klepsidra_0.0.1.zip</Download_URL>
+
+        <Download_URL_Setup>https://github.com/PolentaConnection/Klepsidra/releases/latest/download/Klepsidra_Setup_0.0.1.zip</Download_URL_Setup>
+
+    </Download_Info>
+
+</XML_DIZ>

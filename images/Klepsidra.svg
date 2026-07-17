@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fde68a"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="32" ry="32" fill="url(#bgGrad)"/>
+
+  <path d="M88 56 H168 L132 112 H124 Z" fill="none" stroke="#fff7ed" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M88 200 H168 L132 144 H124 Z" fill="none" stroke="#fff7ed" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="124" y="112" width="8" height="32" rx="4" fill="#fff7ed"/>
+
+  <path d="M96 64 H160 L132 104 H124 Z" fill="url(#sandGrad)" opacity="0.95"/>
+  <rect x="126" y="116" width="4" height="24" rx="2" fill="url(#sandGrad)"/>
+  <path d="M96 192 H160 L132 152 H124 Z" fill="url(#sandGrad)" opacity="0.75"/>
+</svg>

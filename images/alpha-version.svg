@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Alpha Version">
+  <defs>
+    <linearGradient id="alphaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="218" height="42" rx="8" ry="8" fill="url(#alphaBg)" stroke="#fde68a" stroke-width="2"/>
+  <path d="M14 8 L30 8 L22 22 Z" fill="#fff7ed"/>
+  <path d="M14 36 L30 36 L22 22 Z" fill="#fbbf24" opacity="0.9"/>
+  <text x="126" y="28" text-anchor="middle"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif"
+        font-size="16" font-weight="700" letter-spacing="1.5"
+        fill="#fffbeb">ALPHA VERSION</text>
+</svg>

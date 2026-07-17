@@ -220,6 +220,22 @@ a.product-card-icon-link:hover {
     opacity: 0.85;
 }
 
+.alpha-version-badge {
+    display: inline-block;
+    height: 28px;
+    width: auto;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.alpha-version-badge-lg {
+    height: 40px;
+}
+
+.product-card-alpha {
+    margin: 0.35rem 0 0.75rem;
+}
+
 /* Custom Button */
 .btn-custom {
     background-color: transparent;
@@ -980,17 +996,6 @@ body.screenshot-lightbox-open {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-}
-
-.mapmyvisitors-tracker {
-    position: absolute;
-    left: -9999px;
-    top: 0;
-    width: 900px;
-    height: 450px;
-    overflow: hidden;
-    visibility: hidden;
-    pointer-events: none;
 }
 
 @media (max-width: 576px) {
