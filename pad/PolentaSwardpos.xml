@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <Program_Info>
+        <Program_Name>Polenta Swardpos</Program_Name>
+        <Program_Description>Polenta Swardpos is a free Windows desktop utility for authorized forgotten-password recovery. Build rule-based candidate lists from word groups you remember, then verify them locally against your own Microsoft Office, LibreOffice/OpenDocument, ZIP (ZipCrypto and AES-256), RAR and 7z files. Fully offline—no cloud upload. Available as a portable zip or installer from Polenta Connection.</Program_Description>
+        <Company_Name>Polenta Connection</Company_Name>
+        <Author_First_Name>Polenta</Author_First_Name>
+        <Author_Last_Name>Connection</Author_Last_Name>
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+        <Application_Type>Utility</Application_Type>
+        <Application_Category>Security and Privacy</Application_Category>
+        <Category_Description>Password recovery</Category_Description>
+        <Keywords>password recovery, forgotten password, office password recovery, libreoffice, opendocument, zip password recovery, rar, 7z, aes, wordlist, dictionary list, digital forensics, data recovery, windows, freeware, portable</Keywords>
+        <Language>English</Language>
+        <Operating_System>Windows 10, Windows 11</Operating_System>
+        <Release_Date>2026-07-19</Release_Date>
+        <Program_Version>1.0.0</Program_Version>
+        <File_Size>40000</File_Size>
+        <License_Cost>Freeware</License_Cost>
+        <License_Type>Freeware</License_Type>
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-polentaswardpos.html</Program_Info_URL>
+    </Program_Info>
+    <Download_Info>
+        <Download_URL>https://github.com/PolentaConnection/PolentaSwardpos/releases/latest/download/PolentaSwardpos_1.0.zip</Download_URL>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PolentaSwardpos/releases/latest/download/PolentaSwardpos_Setup_1.0.zip</Download_URL_Setup>
+    </Download_Info>
+</XML_DIZ>

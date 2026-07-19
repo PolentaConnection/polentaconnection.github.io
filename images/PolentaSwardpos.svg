@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="55%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8fa0"/>
+      <stop offset="45%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#c73e54"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaeaea"/>
+      <stop offset="100%" stop-color="#a8a8bc"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="232" height="232" rx="40" ry="40" fill="url(#bg)"/>
+  <rect x="12" y="12" width="232" height="232" rx="40" ry="40" fill="none" stroke="#3d3d5c" stroke-width="3"/>
+
+  <!-- Locked document -->
+  <g transform="translate(48 54)">
+    <path d="M18 8 H98 L126 36 V148 H18 Z" fill="url(#doc)" opacity="0.92"/>
+    <path d="M98 8 V36 H126 Z" fill="#c8c8d8"/>
+    <rect x="38" y="64" width="60" height="8" rx="3" fill="#3d3d5c" opacity="0.35"/>
+    <rect x="38" y="84" width="48" height="8" rx="3" fill="#3d3d5c" opacity="0.28"/>
+    <rect x="38" y="104" width="54" height="8" rx="3" fill="#3d3d5c" opacity="0.22"/>
+  </g>
+
+  <!-- Ancient key overlay -->
+  <g transform="translate(96 118)">
+    <circle cx="26" cy="26" r="22" fill="none" stroke="url(#key)" stroke-width="9"/>
+    <circle cx="26" cy="26" r="9" fill="#1a1a2e"/>
+    <rect x="44" y="20" width="78" height="12" rx="4" fill="url(#key)"/>
+    <path d="M110 32 H122 V46 H132 V56 H122 V66 H110 V56 H100 V46 H110 Z" fill="url(#key)"/>
+  </g>
+</svg>
