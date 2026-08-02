@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="55%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="folder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="55%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#e76f51"/>
+    </linearGradient>
+    <linearGradient id="note" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7ec8ff"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="232" height="232" rx="40" ry="40" fill="url(#bg)"/>
+  <rect x="12" y="12" width="232" height="232" rx="40" ry="40" fill="none" stroke="#3d3d5c" stroke-width="3"/>
+
+  <!-- Folder -->
+  <g transform="translate(40 68)">
+    <path d="M8 36 H168 V132 H8 Z" fill="url(#folder)"/>
+    <path d="M8 36 H68 L84 20 H168 V40 H8 Z" fill="#ffb347"/>
+    <path d="M8 44 H168 V52 H8 Z" fill="#1a1a2e" opacity="0.18"/>
+  </g>
+
+  <!-- Music note -->
+  <g transform="translate(118 108)">
+    <ellipse cx="22" cy="58" rx="18" ry="14" fill="url(#note)"/>
+    <rect x="34" y="8" width="10" height="52" rx="3" fill="url(#note)"/>
+    <path d="M44 10 C58 4, 74 2, 86 8 L86 28 C72 20, 56 22, 44 28 Z" fill="url(#note)"/>
+  </g>
+
+  <!-- Compact waveform bars -->
+  <g transform="translate(58 148)" fill="#1a1a2e" opacity="0.35">
+    <rect x="0" y="18" width="8" height="22" rx="2"/>
+    <rect x="14" y="10" width="8" height="30" rx="2"/>
+    <rect x="28" y="4" width="8" height="36" rx="2"/>
+    <rect x="42" y="14" width="8" height="26" rx="2"/>
+  </g>
+</svg>
