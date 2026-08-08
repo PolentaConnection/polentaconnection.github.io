@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <Program_Info>
+        <Program_Name>PRRS</Program_Name>
+        <Program_Description>PRRS (Polenta RoboCopy and rsync Simplified) is a free cross-platform command-line file sync utility for Windows and Linux. Mirror, update, exclude, checksum, size and date filters, parallel workers, retries, progress and logging—with one clear flag per idea.</Program_Description>
+        <Company_Name>Polenta Connection</Company_Name>
+        <Author_First_Name>Polenta</Author_First_Name>
+        <Author_Last_Name>Connection</Author_Last_Name>
+        <Contact_Email>PolentaConnection@GMail.com</Contact_Email>
+        <Support_Email>PolentaConnection@GMail.com</Support_Email>
+        <Company_Web_Site>https://PolentaConnection.com</Company_Web_Site>
+        <Application_Type>Utility</Application_Type>
+        <Application_Category>Utilities</Application_Category>
+        <Category_Description>System Utilities</Category_Description>
+        <Keywords>robocopy, rsync, file sync, mirror, backup, exclude, checksum, command-line, windows, linux, portable, freeware</Keywords>
+        <Language>English</Language>
+        <Operating_System>Windows 10, Windows 11, Linux</Operating_System>
+        <Release_Date>2026-08-08</Release_Date>
+        <Program_Version>1.2.0</Program_Version>
+        <File_Size>3000</File_Size>
+        <License_Cost>Freeware</License_Cost>
+        <License_Type>Freeware</License_Type>
+        <Program_Info_URL>https://PolentaConnection.com/pages/product-prrs.html</Program_Info_URL>
+    </Program_Info>
+    <Download_Info>
+        <Download_URL>https://github.com/PolentaConnection/PRRS/releases/latest/download/PRRS_1.2.zip</Download_URL>
+        <Download_URL_Setup>https://github.com/PolentaConnection/PRRS/releases/latest/download/PRRS_Setup_1.2.zip</Download_URL_Setup>
+        <Download_URL_Linux>https://github.com/PolentaConnection/PRRS/releases/latest/download/PRRS_1.2_linux-amd64.zip</Download_URL_Linux>
+    </Download_Info>
+</XML_DIZ>
