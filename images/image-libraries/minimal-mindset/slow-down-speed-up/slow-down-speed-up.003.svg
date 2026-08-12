@@ -1,0 +1,61 @@
+<!--
+Polenta Connection — ImageLibraries
+Copyright (c) Polenta Connection
+Website: https://PolentaConnection.com
+PolentaConnection.com
+Donationware: if this helps you, a small donation—by card or PayPal—helps us keep improving it and keep it free for everyone.
+Donate: https://www.paypal.com/ncp/payment/W6M44LZZ7RJKJ
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="42 42 556 276" width="100%" height="100%"
+     data-stamp-style-name="Rounded Square"
+     data-stamp-case="upper" data-stamp-stars="0"
+     data-stamp-top-size="52" data-stamp-bottom-size="48"
+     data-stamp-top-min="28" data-stamp-bottom-min="26"
+     data-stamp-text-cx="320" data-stamp-inner-width="400" data-stamp-padding-x="36">
+  <!-- Squared rubber-stamp frame with rounded corners, two editable lines. -->
+  <defs>
+    <filter id="ink-stamp-minimal-mindset-slow-down-speed-up-003" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="17" result="noise1" />
+      <feDisplacementMap in="SourceGraphic" in2="noise1" scale="2.2" xChannelSelector="R" yChannelSelector="G" result="warped" />
+      <feGaussianBlur in="warped" stdDeviation="0.25" result="blurred" />
+      <feComponentTransfer in="blurred" result="sharpened">
+        <feFuncA type="linear" slope="2.4" intercept="-0.25" />
+      </feComponentTransfer>
+      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="3" seed="9" result="grain" />
+      <feColorMatrix type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.55 0.55"
+        in="grain" result="grainAlpha" />
+      <feComposite in="sharpened" in2="grainAlpha" operator="in" result="final" />
+    </filter>
+  </defs>
+<g transform="translate(320, 180) rotate(-8) translate(-320, -180)" filter="url(#ink-stamp-minimal-mindset-slow-down-speed-up-003)">
+    <rect id="stamp-frame-outer" x="78" y="78" width="484" height="204" rx="28" ry="28"
+          fill="none" stroke="#C00000" stroke-width="14" />
+    <rect id="stamp-frame-inner" x="100" y="100" width="440" height="160" rx="18" ry="18"
+          fill="none" stroke="#C00000" stroke-width="5" />
+
+    <text id="stamp-top" x="320" y="158"
+          font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="52" font-weight="900" fill="#C00000"
+          text-anchor="middle" letter-spacing="1.2">SLOW DOWN</text>
+
+    <text id="stamp-bottom" x="320" y="222"
+          font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="48" font-weight="900" fill="#C00000"
+          text-anchor="middle" letter-spacing="1.6">SPEED UP</text>
+
+    <circle cx="95" cy="120" r="2.2" fill="#C00000" />
+    <circle cx="540" cy="250" r="3" fill="#C00000" />
+    <circle cx="110" cy="255" r="1.6" fill="#C00000" />
+    <circle cx="530" cy="105" r="2" fill="#C00000" />
+    <circle cx="500" cy="270" r="1.4" fill="#C00000" />
+    <circle cx="130" cy="95" r="1.8" fill="#C00000" />
+    <circle cx="545" cy="160" r="1.2" fill="#C00000" />
+    <circle cx="100" cy="200" r="1.5" fill="#C00000" />
+    <circle cx="200" cy="130" r="1.1" fill="#C00000" opacity="0.75" />
+    <circle cx="450" cy="240" r="1.3" fill="#C00000" opacity="0.7" />
+  </g>
+</svg>

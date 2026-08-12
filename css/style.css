@@ -365,6 +365,118 @@ li {
     display: block;
 }
 
+/* ImageLibraries donationware galleries — white preview backdrop for transparent SVGs */
+.image-libraries-card.gallery-item {
+    padding: 0;
+}
+
+.image-libraries-library-card .image-libraries-card-preview {
+    align-items: center;
+    aspect-ratio: 2 / 1;
+    background-color: #fff;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    padding: 0.15rem;
+    width: 100%;
+}
+
+.image-libraries-library-card .image-libraries-card-preview img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.image-libraries-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-libraries-thumb {
+    align-items: center;
+    aspect-ratio: 2 / 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.15rem;
+    width: 100%;
+}
+
+.image-libraries-thumb img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .image-libraries-thumb,
+    .image-libraries-library-card .image-libraries-card-preview {
+        cursor: zoom-in;
+    }
+}
+
+#image-libraries-hover-preview {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    box-shadow: 0 14px 48px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    padding: 0.4rem;
+    pointer-events: none;
+    position: fixed;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+    visibility: hidden;
+    z-index: 1080;
+}
+
+#image-libraries-hover-preview.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#image-libraries-hover-preview img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.image-libraries-card-body {
+    padding: 0.75rem 0.5rem 0.5rem;
+}
+
+.image-libraries-card-placeholder {
+    align-items: center;
+    background-color: #fff;
+    color: #666;
+    display: flex;
+    font-size: 0.95rem;
+    justify-content: center;
+    min-height: 140px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image-libraries-pagination .page-link {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.image-libraries-pagination .page-item.active .page-link {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+}
+
 /* Event List */
 .event-item {
     background-color: var(--bg-secondary);
